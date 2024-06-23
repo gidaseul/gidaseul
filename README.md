@@ -8,28 +8,31 @@
 I am gidaseul 😃. I am a passionate frontend developer from Korea.<br>I love to explore and learn about new things.
 
 ## 👯 Communities
-* Member of XYZ community.
-* Contributor at ABC project.
+* --
+* --
 
 ## ⚡ Technologies
 Talk to me about:
 - Front-end development using **HTML, Javascript, CSS, Bootstrap**.
-- Backend development using **Flask, Django**.
-- Creating scalable cloud architecture using **AWS Cloud**.
-- Solving Data structure and algorithm questions in **Java and Python**.
+- Backend development using **Spring Boot**.
+- Creating scalable cloud architecture using **AWS**.
+- Solving Data structure and algorithm questions in **C, C++, and Python**.
+- Working with data using **Pandas, Numpy, and Scikit-learn**.
+- Visualizing data using **Matplotlib and Seaborn**.
+- Building and deploying machine learning models with **TensorFlow and PyTorch**.
+- Containerizing applications with **Docker**.
 
 ## Hello World!! 🤔
 - 💬 Ask me about anything and everything.
 - 📫 Read my blogs: [My Velog Blog](https://velog.io/@feelgi/posts), [My Tistory Blog](https://feelgi.tistory.com/).
-- 🎯 Portfolio site: [Portfolio](https://yourportfolio.com).
-- 🔔 Subscribe:- [YouTube Channel](https://www.youtube.com/yourchannel).
+- 🎯 Portfolio site: [Portfolio](https://yourportfolio.com).  <!-- 아직 수정 필요-->
 - ⚡ Fun fact: Internet users blink less than usual.
 
 ![gidaseul's github stats](https://github-readme-stats.vercel.app/api?username=gidaseul&hide=["issues"]&show_icons=true)
 
 ---
 
-<h3 align="left">Languages and Tools:</h3>
+<h3 align="left">Languages and Tools I have used:</h3>
 <p align="left">
   <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws"></code>
   <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap"></code>
@@ -51,9 +54,10 @@ Talk to me about:
   <code><img height="20" src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow"></code>
 </p>
 
+
 ---
 
-<h3 align="left">Support:</h3>
+<h3 align="left">Support:</h3> <!-- 아직 수정 필요-->
 <p>
   <a href="https://www.buymeacoffee.com/gidaseul" target="_blank">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="217" height="60" />
@@ -62,4 +66,21 @@ Talk to me about:
 
 <p align="center">
   <img src="https://github.com/yourusername/yourrepo/raw/main/path/to/image.gif" alt="Coding animation" width="400" />
+</p>
+
+<h3 align="left">My Projects:</h3>
+<p align="left">
+  <!-- 프로젝트 링크와 이미지를 추가할 공간 -->
+  <a href="#" target="_blank">
+    <img alt="project1" src="https://via.placeholder.com/150" height="68" align="left">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="project2" src="https://via.placeholder.com/150" height="68" align="left">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="project3" src="https://via.placeholder.com/150" height="68" align="left">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="project4" src="https://via.placeholder.com/150" height="68" align="left">
+  </a>
 </p>
