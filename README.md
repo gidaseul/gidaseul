@@ -13,7 +13,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
   <a href = "https://www.boostcourse.org">* 부스트코스 < DATA SCIENCE PROJECTS> 코칭스터디 : 2024 - 네이버 커넥트재단(모두의 연구소 x boostcourrse) 수료</a>
 </h2>
 <h2>
-  ![LG AI-수료증.pdf](https://github.com/user-attachments/files/22146785/LG.AI-.pdf)
+  <img width="625" height="807" alt="Image" src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7"/>)
   <a href="https://lgaimers.ai/">* LG Aimers 7기 수료</a>
 </h2>
 
