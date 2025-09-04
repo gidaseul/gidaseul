@@ -73,23 +73,23 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
   <tbody>
     <tr>
       <td>대학교: 숭실대학교</td>
-      <td>학과: 소프트웨어학과 - 빅데이터융합 전공</td>
+      <td>소프트웨어학과 - 빅데이터융합 전공</td>
       <td>2020.03 ~ 2025.02</td>
     </tr>
     <tr>
       <td>ICT 인턴 : (주)텐핑거스</td>
-      <td>활동 : 매의 눈 프로젝트 - 전국 놀거리 및 먹거리 매장 AI 기반 발굴 및 인기도 예측 </td>
+      <td>매의 눈 프로젝트 - 전국 놀거리 및 먹거리 매장 AI 기반 발굴 및 인기도 예측 </td>
       <td>2025.03.01 ~ 2025.06.31</td>
     </tr>
      <tr>
       <td>학부연구생 : VML(Vison & Machine Learnning Lab) </td>
       <a href = "https://sites.google.com/view/vmllab/members">
-      <td>활동 : Artificial Intelligence/AI Security/Computer Vision/AI in Medical Healthcare </td>
+      <td>Artificial Intelligence/AI Security/Computer Vision/AI in Medical Healthcare </td>
       <td>2024.06 ~ 2025.02</td>
     </tr>
      <tr>
       <td>창업 : Syncorbis </td>
-      <td>활동 :  Bio & SW Engineer - 생명 자동화 실험기기 설계 및 기획</td>
+      <td>Bio & SW Engineer - 생명 자동화 실험기기 설계 및 기획</td>
       <td>2021.03.01 ~ 2022.03</td>
     </tr>
   </tbody>
