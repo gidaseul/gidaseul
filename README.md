@@ -75,9 +75,6 @@ Talk to me about:
       <img src="https://github.com/gidaseul/Eagel_eye_QC_score/raw/main/image_1.png" alt="매의 눈 프로젝트(ICT 인턴 - 제휴 가능성 매장 추천 시스템)" width="400">
     </a>
     <br>
-    <a href="https://github.com/gidaseul/Eagel_eye_QC_score" target="_blank">
-      <strong>매의 눈 프로젝트 (ICT 인턴 - 제휴 가능성 매장 추천 시스템)</strong>
-    </a>
     <p>
       머신러닝과 데이터 분석을 활용하여 제휴 가능성이 높은 매장을 추천하는 시스템.
     </p>
@@ -85,12 +82,9 @@ Talk to me about:
   <hr>
   <div align="center">
     <a href="https://github.com/gidaseul/capstone_pos" target="_blank">
-      <img src="https://private-user-images.githubusercontent.com/61573303/485823370-e9b5b0ab-ff87-478e-a8c1-96cbd2d7cbf1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwMTM0MjgsIm5iZiI6MTc1NzAxMzEyOCwicGF0aCI6Ii82MTU3MzMwMy80ODU4MjMzNzAtZTliNWIwYWItZmY4Yy00NzhlLWE4YzEtOTZjYmQyZDdjYmYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA0VDE5MTIwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlNDQ3MGNiMTIzNTQ2NTUzYTc2MzA4OWJjMmMzYjg5MmRhM2VjNzkxYTI5YzBkYmM1NGU0NmEwMTNmOWE5YWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.wrj0yvPbVritHjG_w8zo4lvQRCz-vfM44m7KGwhiWJs" alt="행동 감지 모델을 통한 실시간 낙상 상황 감지 서비스" width="400">
+      <img src="https://private-user-images.githubusercontent.com/61573303/485823370-e9b5b0ab-ff87-478e-a8c1-96cbd2d7cbf1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwMTM5ODMsIm5iZiI6MTc1NzAxMzY4MywicGF0aCI6Ii82MTU3MzMwMy80ODU4MjMzNzAtZTliNWIwYWItZmY4Ny00NzhlLWE4YzEtOTZjYmQyZDdjYmYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA0VDE5MjEyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMwZjk5ODY2ODRkYjI2MDhiYzRiY2MwOTUxODFkODVmOWEwYTFkMzc4OTk2MWY1YTY1ZmU4YWRjMGIzNDJiMjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.VwpAgqU2v8MrKzutMy2wkbEhvGMUovk_eiYpc8Lfo-s" alt="행동 감지 모델을 통한 실시간 낙상 상황 감지 서비스" width="400">
     </a>
     <br>
-    <a href="https://github.com/gidaseul/capstone_pos" target="_blank">
-      <strong>행동 감지 모델을 통한 실시간 낙상 상황 감지 서비스</strong>
-    </a>
     <p>
       딥러닝 기반의 행동 감지 모델로 실시간 낙상 상황을 감지하고 알림을 제공합니다.
     </p>
@@ -98,12 +92,9 @@ Talk to me about:
   <hr>
   <div align="center">
     <a href="https://github.com/gidaseul/babbogi" target="_blank">
-      <img src="https://private-user-images.githubusercontent.com/61886049/355673845-7ca475d8-b913-431b-b025-9d86def286ad.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwMTM0NDgsIm5iZiI6MTc1NzAxMzE0OCwicGF0aCI6Ii82MTg4NjA0OS8zNTU2NzM4NDUtN2NhNDc1ZDgtYjkxMy00MzFiLWIwMjUtOWQ4NmRlZjI4NmFkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA0VDE5MTIyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ4OTYwNDE5YTNhYWJkNDFiMmY1MDQ5YTdiMGM3ODU0YzgzYzQyNTYzOGQxYTI1ODYxODlkMjIyZjgyZmMyYjAmWC1BbXJ6LVR5cGUTGFiIHB1cmhhc2VkQXR0ZW5zaW9uPSAiMjAyNTA5MDQyMDE5MTIyOCI%253D" alt="밥보기(섭취 기반 영양소 관리 서비스)" width="400">
+      <img src="https://private-user-images.githubusercontent.com/61886049/355675219-8d3ea4d6-8a14-4a10-9a53-3891661a9604.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwMTM0NDgsIm5iZiI6MTc1NzAxMzE0OCwicGF0aCI6Ii82MTg4NjA0OS8zNTU2NzUyMTktOGQzZWE0ZDYtOGExNC00YTEwLTlhNTMtMzg5MTY2MWE5NjA0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA0VDE5MTIyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNmNDllNmQ4ZDIxMWUwODY3YTFkZDk2ZDljMGIzZTBkMDIxYmRkMzA3ZjEyNGIzZDllZGJlMjljNTU4MjJiNDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QyaEIryKenHJr9V0jx99YNBJiWSecEAXTs1ARy5gilc" alt="밥보기(섭취 기반 영양소 관리 서비스)" width="400">
     </a>
     <br>
-    <a href="https://github.com/gidaseul/babbogi" target="_blank">
-      <strong>밥보기 (섭취 기반 영양소 관리 서비스)</strong>
-    </a>
     <p>
       음식 섭취량을 기반으로 영양소 섭취를 체계적으로 관리하는 모바일 서비스.
     </p>
