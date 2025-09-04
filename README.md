@@ -8,15 +8,13 @@
 I am gidaseul 😃. I am a passionate frontend developer from Korea.<br>I love to explore and learn about new things.
 
 ## 👯 Communities
-* --
-* --
+* 부스트코스 < DATA SCIENCE PROJECTS> 코칭스터디 : 2024 - 네이버 커넥트재단(모두의 연구소 x boostcourrse) 수료
+* LG Aimers 7기 수료
 
 ## ⚡ Technologies
 Talk to me about:
 - Front-end development using **HTML, Javascript, CSS, Bootstrap**.
-- Backend development using **Spring Boot**.
-- Creating scalable cloud architecture using **AWS**.
-- Solving Data structure and algorithm questions in **C, C++, and Python**.
+- Solving Data structure and algorithm questions in Python**.
 - Working with data using **Pandas, Numpy, and Scikit-learn**.
 - Visualizing data using **Matplotlib and Seaborn**.
 - Building and deploying machine learning models with **TensorFlow and PyTorch**.
