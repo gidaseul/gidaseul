@@ -72,13 +72,13 @@ Talk to me about:
 <p align="left">
   <!-- 프로젝트 링크와 이미지를 추가할 공간 -->
   <a href="#" target="_blank">
-    <img alt="project1" src="https://via.placeholder.com/150" height="68" align="left">
+    <img alt="매의 눈 프로젝트(ICT 인턴 - 제휴 가능성 매장 추천 시스템)" src="https://github.com/gidaseul/Eagel_eye_QC_score" height="68" align="left">
   </a>
   <a href="#" target="_blank">
-    <img alt="project2" src="https://via.placeholder.com/150" height="68" align="left">
+    <img alt="행동 감지 모델을 통한 실시간 낙상 상황 감지 서비스" src="https://github.com/gidaseul/capstone_pos" height="68" align="left">
   </a>
   <a href="#" target="_blank">
-    <img alt="project3" src="https://via.placeholder.com/150" height="68" align="left">
+    <img alt="밥보기(섭취 기반 영양소 관리 서비스)" src="https://github.com/gidaseul/babbogi" height="68" align="left">
   </a>
   <a href="#" target="_blank">
     <img alt="project4" src="https://via.placeholder.com/150" height="68" align="left">
