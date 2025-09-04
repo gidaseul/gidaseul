@@ -72,7 +72,7 @@ Talk to me about:
 <p>
   <div align="center">
     <a href="https://github.com/gidaseul/Eagel_eye_QC_score" target="_blank">
-      <img src="https://github.com/gidaseul/Eagel_eye_QC_score/raw/main/image_1.png" alt="매의 눈 프로젝트(ICT 인턴 - 제휴 가능성 매장 추천 시스템)" width="400">
+      <img src="https://private-user-images.githubusercontent.com/61573303/485824137-08013203-58d5-4840-99ba-9aecf0dcc099.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwMTQxMDUsIm5iZiI6MTc1NzAxMzgwNSwicGF0aCI6Ii82MTU3MzMwMy80ODU4MjQxMzctMDgwMTMyMDMtNThkNS00ODQwLTk5YmEtOWFlY2YwZGNjMDk5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA0VDE5MjMyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU0ZmVkYWU1NzgzMTc4YzQ4ZjU1MWQyZmRhMmY1MmE0YzliMDIwYTgxZmI3NDRjYTVkZTQ1NmI1MDRhNzFlYmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.6znWwQyME0O0f9C4DKwbiLy6JEgTElnYMvGOogzTQF4" alt="매의 눈 프로젝트(ICT 인턴 - 제휴 가능성 매장 추천 시스템)" width="400">
     </a>
     <br>
     <p>
@@ -92,7 +92,7 @@ Talk to me about:
   <hr>
   <div align="center">
     <a href="https://github.com/gidaseul/babbogi" target="_blank">
-      <img src="https://private-user-images.githubusercontent.com/61886049/355675219-8d3ea4d6-8a14-4a10-9a53-3891661a9604.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwMTM0NDgsIm5iZiI6MTc1NzAxMzE0OCwicGF0aCI6Ii82MTg4NjA0OS8zNTU2NzUyMTktOGQzZWE0ZDYtOGExNC00YTEwLTlhNTMtMzg5MTY2MWE5NjA0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA0VDE5MTIyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNmNDllNmQ4ZDIxMWUwODY3YTFkZDk2ZDljMGIzZTBkMDIxYmRkMzA3ZjEyNGIzZDllZGJlMjljNTU4MjJiNDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QyaEIryKenHJr9V0jx99YNBJiWSecEAXTs1ARy5gilc" alt="밥보기(섭취 기반 영양소 관리 서비스)" width="400">
+      <img src="https://private-user-images.githubusercontent.com/61886049/355675219-8d3ea4d6-8a14-4a10-9a53-3891661a9604.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwMTM0NDgsIm5iZiI6MTc1NzAxMzE0OCwicGF0aCI6Ii82MTg4NjA0OS8zNTU2NzUyMTktOGQzZWE0ZDYtOGExNC00YTEwLTlhNTMtMzg5MTY2MWE5NjA0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA0VDE5MTIyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNmNDllNmQ4ZDIxMWUwODY3YTFkZDk2ZDljMGIzZTBkMDIxYmRkMzA3ZjEyNGIzZDllZGJlMjljNTU4MjJiNDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QyaEIryKenHJr9V0jx99YNBJiWSecEAXTs1ARy5gilc" alt="밥보기(섭취 기반 영양소 관리 서비스)" width="200">
     </a>
     <br>
     <p>
