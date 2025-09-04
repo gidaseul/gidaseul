@@ -17,7 +17,6 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
   <a href="https://lgaimers.ai/">* LG Aimers 7기 수료</a>
 </h2>
 
-<!-- Communities: 2-column certificate gallery -->
 <table>
   <tr>
     <!-- LEFT -->
@@ -57,6 +56,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
     </td>
   </tr>
 </table>
+
 
 
 ## ⚡ Technologies
