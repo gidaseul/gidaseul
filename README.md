@@ -82,7 +82,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
       <td>2025.03 ~ 2025.06</td>
     </tr>
      <tr>
-      <td>학부연구생 : VML(Vison & Machine Learnning Lab)<a href = "https://sites.google.com/view/vmllab/members"></td>
+      <td><a href = "https://sites.google.com/view/vmllab/members">학부연구생 : VML(Vison & Machine Learnning Lab)</td>
       <td>Artificial Intelligence/AI Security/Computer Vision/AI in Medical Healthcare </td>
       <td>2024.06 ~ 2025.02</td>
     </tr>
