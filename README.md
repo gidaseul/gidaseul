@@ -69,16 +69,24 @@ Talk to me about:
 </p>
 
 <h3 align="left">My Projects:</h3>
-<p align="left">
-  <!-- 프로젝트 링크와 이미지를 추가할 공간 -->
-  <a href="https://github.com/gidaseul/Eagel_eye_QC_score" target="_blank">
-    <img alt="매의 눈 프로젝트(ICT 인턴 - 제휴 가능성 매장 추천 시스템)" src="" height="68" align="left">
-  </a>
-  <a href="https://github.com/gidaseul/capstone_pos" target="_blank">
-    <img alt="행동 감지 모델을 통한 실시간 낙상 상황 감지 서비스" src="" height="68" align="left">
-  </a>
-  <a href="https://github.com/gidaseul/babbogi" target="_blank">
-    <img alt="밥보기(섭취 기반 영양소 관리 서비스)" src="" height="68" align="left">
-  </a>
-  </a>
-</p>
+
+<div>
+    <a href="https://github.com/gidaseul/Eagel_eye_QC_score" target="_blank">
+        <img alt="매의 눈 프로젝트(ICT 인턴 - 제휴 가능성 매장 추천 시스템)" src="이미지_경로_여기에_입력" height="20" align="left">
+        매의 눈 프로젝트(ICT 인턴 - 제휴 가능성 매장 추천 시스템)
+    </a>
+</div>
+
+<div>
+    <a href="https://github.com/gidaseul/capstone_pos" target="_blank">
+        <img alt="행동 감지 모델을 통한 실시간 낙상 상황 감지 서비스" src="이미지_경로_여기에_입력" height="20" align="left">
+        행동 감지 모델을 통한 실시간 낙상 상황 감지 서비스
+    </a>
+</div>
+
+<div>
+    <a href="https://github.com/gidaseul/babbogi" target="_blank">
+        <img alt="밥보기(섭취 기반 영양소 관리 서비스)" src="이미지_경로_여기에_입력" height="20" align="left">
+        밥보기(섭취 기반 영양소 관리 서비스)
+    </a>
+</div>
