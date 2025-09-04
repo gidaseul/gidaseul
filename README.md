@@ -22,9 +22,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
           <img src="https://github.com/user-attachments/assets/0547901c-ed69-4d81-a020-4dd6072572f9" alt="부스트코스 DATA SCIENCE PROJECTS 로고">
           <br>
           <br>
-          * 부스트코스 <DATA SCIENCE PROJECTS> 코칭스터디
-          <br>
-          <small>2024 - (모두의 연구소 x boostcourrse) 수료</small>
+          * 부스트코스 <DATA SCIENCE PROJECTS> 코칭스터디 - (모두의 연구소 x boostcourrse) 수료
         </a>
       </td>
       <td>
@@ -33,8 +31,6 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
           <br>
           <br>
           * LG Aimers 7기 수료
-          <br>
-          <small>2024년 수료</small>
         </a>
       </td>
     </tr>
