@@ -8,40 +8,81 @@
 I am gidaseul 😃. "I want to be a person who uncovers value through data and builds the foundation for reliable AI by focusing on research that enhances trustworthiness and interpretability."
 
 ## 👯 Communities
+<table>
+  <thead>
+    <tr>
+      <th>네이버 커넥트재단</th>
+      <th>LG Aimers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://www.boostcourse.org" target="_blank">
+          <img src="https://github.com/user-attachments/assets/0547901c-ed69-4d81-a020-4dd6072572f9" alt="부스트코스 DATA SCIENCE PROJECTS 로고">
+          <br>
+          <br>
+          * 부스트코스 <DATA SCIENCE PROJECTS> 코칭스터디 - (모두의 연구소 x boostcourrse) 수료
+        </a>
+      </td>
+      <td>
+        <a href="https://lgaimers.ai/" target="_blank">
+          <img src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7" alt="LG Aimers 로고">
+          <br>
+          <br>
+          * LG Aimers 7기 수료
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
+## 🏆 Awards
 
-<div> 
-  <table>
-    <thead>
-      <tr>
-        <th>네이버 커넥트재단</th>
-        <th>LG Aimers</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <a href="https://www.boostcourse.org" target="_blank">
-            <img src="https://github.com/user-attachments/assets/0547901c-ed69-4d81-a020-4dd6072572f9" alt="부스트코스 DATA SCIENCE PROJECTS 로고">
-            <br>
-            <br>
-            * 부스트코스 <DATA SCIENCE PROJECTS> 코칭스터디 - (모두의 연구소 x boostcourrse) 수료
-          </a>
-        </td>
-        <td>
-          <a href="https://lgaimers.ai/" target="_blank">
-            <img src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7" alt="LG Aimers 로고">
-            <br>
-            <br>
-            * LG Aimers 7기 수료
-          </a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">대회명</th>
+      <th>수상 내역</th>
+      <th>기간</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">**대회 이름**</td>
+      <td>**수상 등급**</td>
+      <td>2024.01 - 2024.03</td>
+    </tr>
+    <tr>
+      <td colspan="2">**다른 대회 이름**</td>
+      <td>**수상 등급**</td>
+      <td>2023.09 - 2023.11</td>
+    </tr>
+  </tbody>
+</table>
 
-
+## 💼 Experience & Affiliation
+<table>
+  <thead>
+    <tr>
+      <th>소속</th>
+      <th>활동 내역</th>
+      <th>기간</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>**현재 소속 (예: OO대학교)**</td>
+      <td>**현재 활동 (예: 데이터 분석 프로젝트 진행)**</td>
+      <td>2024.03 - 현재</td>
+    </tr>
+    <tr>
+      <td>**과거 소속 (예: OO기업 인턴)**</td>
+      <td>**과거 활동 (예: 데이터 엔지니어링 인턴)**</td>
+      <td>2023.07 - 2023.09</td>
+    </tr>
+  </tbody>
+</table>
 
 ## ⚡ Technologies
 Talk to me about:
