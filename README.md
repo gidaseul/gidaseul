@@ -17,92 +17,47 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
   <a href="https://lgaimers.ai/">* LG Aimers 7기 수료</a>
 </h2>
 
-
-<h2 align="left">👯 Communities</h2>
-
-<style>
-  /* 테이블 전체 스타일 */
-  table {
-    width: 100%; /* 너비를 100%로 설정하여 공간을 채웁니다 */
-    border-collapse: collapse; /* 셀 경계선을 합쳐 깔끔하게 만듭니다 */
-    margin-bottom: 20px; /* 표 아래에 여백을 줍니다 */
-  }
-
-  /* 헤더 셀 (Community Group) 스타일 */
-  th {
-    background-color: #f2f2f2; /* 헤더 배경색 */
-    border: 1px solid #ddd; /* 경계선 */
-    padding: 12px; /* 패딩 */
-    text-align: center; /* 텍스트 가운데 정렬 */
-    font-size: 1.2em; /* 폰트 크기 */
-  }
-
-  /* 데이터 셀 (각 프로그램 정보) 스타일 */
-  td {
-    border: 1px solid #ddd; /* 경계선 */
-    padding: 15px; /* 패딩 */
-    text-align: center; /* 텍스트 가운데 정렬 */
-    vertical-align: top; /* 내용을 셀 상단에 정렬 */
-  }
-
-  /* 이미지 스타일 */
-  td img {
-    max-width: 100%; /* 셀 너비에 맞춰 이미지 크기 조절 */
-    height: 150px; /* 이미지 높이를 고정 (원하는 크기로 조절하세요) */
-    object-fit: contain; /* 이미지 비율 유지하며 셀에 맞춤 */
-    margin-bottom: 10px; /* 이미지 아래에 여백 */
-  }
-
-  /* 링크 텍스트 스타일 */
-  td a {
-    text-decoration: none; /* 밑줄 제거 */
-    color: #0366d6; /* 링크 색상 (GitHub 기본 링크 색상) */
-    font-weight: bold; /* 글자 굵게 */
-    display: block; /* 블록 요소로 만들어 줄바꿈 */
-    margin-top: 5px; /* 텍스트 위에 여백 */
-  }
-
-  /* 작은 글씨 (수료년도 등) 스타일 */
-  td small {
-    color: #586069; /* 약간 회색 */
-    font-size: 0.9em; /* 폰트 크기 작게 */
-    display: block; /* 블록 요소로 만들어 줄바꿈 */
-    margin-top: 5px;
-  }
-</style>
-
+<!-- Communities: 2-column certificate gallery -->
 <table>
-  <thead>
-    <tr>
-      <th>네이버 커넥트재단</th>
-      <th>LG Aimers</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
+  <tr>
+    <!-- LEFT -->
+    <td align="center" width="50%" style="vertical-align:top;">
+      <!-- 이미지 래퍼: 비율 통일 -->
+      <div style="width:100%; max-width:520px; height:320px; overflow:hidden; border-radius:14px;">
         <a href="https://www.boostcourse.org" target="_blank">
-          <img src="https://github.com/user-attachments/assets/0547901c-ed69-4d81-a020-4dd6072572f9" alt="부스트코스 DATA SCIENCE PROJECTS 로고">
-          <br>
-          <br>
-          * 부스트코스 <DATA SCIENCE PROJECTS> 코칭스터디
-          <br>
-          <small>2024 - (모두의 연구소 x boostcourrse) 수료</small>
+          <img
+            src="https://github.com/user-attachments/assets/0547901c-ed69-4d81-a020-4dd6072572f9"
+            alt="부스트코스 DATA SCIENCE PROJECTS 코칭스터디 수료증"
+            style="width:100%; height:100%; object-fit:cover; display:block;"
+          />
         </a>
-      </td>
-      <td>
+      </div>
+      <!-- 캡션 -->
+      <div style="margin-top:10px; font-size:14px; line-height:1.4;">
+        <strong>부스트코스 &lt;DATA SCIENCE PROJECTS&gt; 코칭스터디 (2024)</strong><br/>
+        <a href="https://www.boostcourse.org" target="_blank">네이버 커넥트재단 (모두의 연구소 × boostcourse)</a> 수료
+      </div>
+    </td>
+
+    <!-- RIGHT -->
+    <td align="center" width="50%" style="vertical-align:top;">
+      <div style="width:100%; max-width:520px; height:320px; overflow:hidden; border-radius:14px;">
         <a href="https://lgaimers.ai/" target="_blank">
-          <img src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7" alt="LG Aimers 로고">
-          <br>
-          <br>
-          * LG Aimers 7기 수료
-          <br>
-          <small>2024년 수료</small>
+          <img
+            src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7"
+            alt="LG Aimers 7기 수료증"
+            style="width:100%; height:100%; object-fit:cover; display:block;"
+          />
         </a>
-      </td>
-    </tr>
-  </tbody>
+      </div>
+      <div style="margin-top:10px; font-size:14px; line-height:1.4;">
+        <strong>LG Aimers 7기</strong><br/>
+        <a href="https://lgaimers.ai/" target="_blank">LG Aimers</a> 수료
+      </div>
+    </td>
+  </tr>
 </table>
+
 
 ## ⚡ Technologies
 Talk to me about:
