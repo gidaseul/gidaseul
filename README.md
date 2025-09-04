@@ -8,35 +8,38 @@
 I am gidaseul 😃. "I want to be a person who uncovers value through data and builds the foundation for reliable AI by focusing on research that enhances trustworthiness and interpretability."
 
 ## 👯 Communities
-<table>
-  <thead>
-    <tr>
-      <th>네이버 커넥트재단</th>
-      <th>LG Aimers</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <a href="https://www.boostcourse.org" target="_blank">
-          <img src="https://github.com/user-attachments/assets/0547901c-ed69-4d81-a020-4dd6072572f9" alt="부스트코스 DATA SCIENCE PROJECTS 로고">
-          <br>
-          <br>
-          * 부스트코스 <DATA SCIENCE PROJECTS> 코칭스터디 - (모두의 연구소 x boostcourrse) 수료
-        </a>
-      </td>
-      <td>
-        <a href="https://lgaimers.ai/" target="_blank">
-          <img src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7" alt="LG Aimers 로고">
-          <br>
-          <br>
-          * LG Aimers 7기 수료
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
 
+
+<div> 
+  <table>
+    <thead>
+      <tr>
+        <th>네이버 커넥트재단</th>
+        <th>LG Aimers</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <a href="https://www.boostcourse.org" target="_blank">
+            <img src="https://github.com/user-attachments/assets/0547901c-ed69-4d81-a020-4dd6072572f9" alt="부스트코스 DATA SCIENCE PROJECTS 로고">
+            <br>
+            <br>
+            * 부스트코스 <DATA SCIENCE PROJECTS> 코칭스터디 - (모두의 연구소 x boostcourrse) 수료
+          </a>
+        </td>
+        <td>
+          <a href="https://lgaimers.ai/" target="_blank">
+            <img src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7" alt="LG Aimers 로고">
+            <br>
+            <br>
+            * LG Aimers 7기 수료
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 
