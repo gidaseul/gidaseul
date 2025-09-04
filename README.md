@@ -81,7 +81,7 @@ Talk to me about:
   </div>
   <hr>
   <div align="center">
-    <a href="https://github.com/gidaseul/capstone_pos" target="_blank">
+    <a href="https://github.com/gidaseul/capstone_pose" target="_blank">
       <img src="https://private-user-images.githubusercontent.com/61573303/485823370-e9b5b0ab-ff87-478e-a8c1-96cbd2d7cbf1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwMTM5ODMsIm5iZiI6MTc1NzAxMzY4MywicGF0aCI6Ii82MTU3MzMwMy80ODU4MjMzNzAtZTliNWIwYWItZmY4Ny00NzhlLWE4YzEtOTZjYmQyZDdjYmYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA0VDE5MjEyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMwZjk5ODY2ODRkYjI2MDhiYzRiY2MwOTUxODFkODVmOWEwYTFkMzc4OTk2MWY1YTY1ZmU4YWRjMGIzNDJiMjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.VwpAgqU2v8MrKzutMy2wkbEhvGMUovk_eiYpc8Lfo-s" alt="행동 감지 모델을 통한 실시간 낙상 상황 감지 서비스" width="400">
     </a>
     <br>
