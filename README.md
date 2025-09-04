@@ -5,16 +5,20 @@
 [![Gmail Badge](https://img.shields.io/badge/-rlektmf0328@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rlektmf0328@gmail.com)](mailto:rlektmf0328@gmail.com)
 [![Instagram Badge](https://img.shields.io/badge/-gidaseul-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/gidaseul)](https://instagram.com/gidaseul)
 
-I am gidaseul 😃. I am a passionate frontend developer from Korea.<br>I love to explore and learn about new things.
+I am gidaseul 😃. "I want to be a person who uncovers value through data and builds the foundation for reliable AI by focusing on research that enhances trustworthiness and interpretability."
 
 ## 👯 Communities
-* 부스트코스 < DATA SCIENCE PROJECTS> 코칭스터디 : 2024 - 네이버 커넥트재단(모두의 연구소 x boostcourrse) 수료
-* LG Aimers 7기 수료
+<h2>
+  <a href = "https://www.boostcourse.org">* 부스트코스 < DATA SCIENCE PROJECTS> 코칭스터디 : 2024 - 네이버 커넥트재단(모두의 연구소 x boostcourrse) 수료</a>
+</h2>
+<h2>
+  <a href="https://lgaimers.ai/">* LG Aimers 7기 수료</a>
+</h2>
 
 ## ⚡ Technologies
 Talk to me about:
 - Front-end development using **HTML, Javascript, CSS, Bootstrap**.
-- Solving Data structure and algorithm questions in Python**.
+- Solving Data structure and algorithm questions in **Python**.
 - Working with data using **Pandas, Numpy, and Scikit-learn**.
 - Visualizing data using **Matplotlib and Seaborn**.
 - Building and deploying machine learning models with **TensorFlow and PyTorch**.
