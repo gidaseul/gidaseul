@@ -9,11 +9,11 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
 
 ## 👯 Communities
 <h2>
-  <img src="%253D" alt="수료증" width="350">
+  ![<DATA SCIENCE PROJECTS>수료증](./images/부스트코스-수료증.pdf)
   <a href = "https://www.boostcourse.org">* 부스트코스 < DATA SCIENCE PROJECTS> 코칭스터디 : 2024 - 네이버 커넥트재단(모두의 연구소 x boostcourrse) 수료</a>
 </h2>
 <h2>
-  <img src="https://raw.githubusercontent.com/gidaseul/gidaseul/main/images/LG%20AI-%E1%84%89%E1%85%AE%E1%84%85%E1%85%AD%E1%84%8C%E1%85%B3%E1%86%BC.pdf" alt="수료증" width="350">
+  ![LG Aimers 7기 수료](./images/LG AI-수료증.pdf)
   <a href="https://lgaimers.ai/">* LG Aimers 7기 수료</a>
 </h2>
 
