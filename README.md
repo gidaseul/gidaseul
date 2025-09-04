@@ -79,7 +79,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
     <tr>
       <td>ICT 인턴 : (주)텐핑거스</td>
       <td>매의 눈 프로젝트 - 전국 놀거리 및 먹거리 매장 AI 기반 발굴 및 인기도 예측 </td>
-      <td>2025.03.01 ~ 2025.06.31</td>
+      <td>2025.03 ~ 2025.06</td>
     </tr>
      <tr>
       <td>학부연구생 : VML(Vison & Machine Learnning Lab) </td>
