@@ -14,8 +14,8 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
   <thead>
     <tr>
       <th>네이버 커넥트재단</th>
-      <th>LG Aimers</th>
       <th>Fast campus</th>
+      <th>LG Aimers</th>
     </tr>
   </thead>
   <tbody>
