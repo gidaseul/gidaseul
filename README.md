@@ -140,17 +140,6 @@ Talk to me about:
 
 ---
 
-<h3 align="left">Support:</h3> <!-- 아직 수정 필요-->
-<p>
-  <a href="https://www.buymeacoffee.com/gidaseul" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="217" height="60" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://github.com/yourusername/yourrepo/raw/main/path/to/image.gif" alt="Coding animation" width="400" />
-</p>
-
 <h3 align="left">My Projects:</h3>
 <p>
   <div align="center">
