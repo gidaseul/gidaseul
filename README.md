@@ -1,12 +1,13 @@
 <h2> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚌𝚘𝚍𝚎𝚛𝚜/>! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
-<div align="center">
-  <img src="https://private-user-images.githubusercontent.com/61573303/342048266-9415ba69-057a-4c22-ab50-7ac430cff445.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwNTYyNjUsIm5iZiI6MTc1NzA1NTk2NSwicGF0aCI6Ii82MTU3MzMwMy8zNDIwNDgyNjYtOTQxNWJhNjktMDU3YS00YzIyLWFiNTAtN2FjNDMwY2ZmNDQ1LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA1VDA3MDYwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxODdmMGJlMzY5YmRiNDBmY2QzOTA1MjUwZDU1YTgxNzQ2ZmFmY2Y2Mjc3M2M4NTA1OGVkZWFhNzRhMGU1NDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.73bhENs9b56nwmzvb3_C5LDT2-YQQLPCqoMlFzpb2C8" alt="동영상 이미지" width="800" />
-</div>
 
 [![Gmail Badge](https://img.shields.io/badge/-rlektmf0328@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rlektmf0328@gmail.com)](mailto:rlektmf0328@gmail.com)
 [![Instagram Badge](https://img.shields.io/badge/-gidaseul-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/gidaseul)](https://instagram.com/gidaseul)
 
 I am gidaseul 😃. "I want to be a person who uncovers value through data and builds the foundation for reliable AI by focusing on research that enhances trustworthiness and interpretability."
+
+<div align="center">
+  <img src="https://private-user-images.githubusercontent.com/61573303/342048266-9415ba69-057a-4c22-ab50-7ac430cff445.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwNTYyNjUsIm5iZiI6MTc1NzA1NTk2NSwicGF0aCI6Ii82MTU3MzMwMy8zNDIwNDgyNjYtOTQxNWJhNjktMDU3YS00YzIyLWFiNTAtN2FjNDMwY2ZmNDQ1LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA1VDA3MDYwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxODdmMGJlMzY5YmRiNDBmY2QzOTA1MjUwZDU1YTgxNzQ2ZmFmY2Y2Mjc3M2M4NTA1OGVkZWFhNzRhMGU1NDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.73bhENs9b56nwmzvb3_C5LDT2-YQQLPCqoMlFzpb2C8" alt="동영상 이미지" width="800" />
+</div>
 
 ## 👯 Communities
 <table>
