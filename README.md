@@ -1,4 +1,6 @@
 <h2> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚌𝚘𝚍𝚎𝚛𝚜/>! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
+![image](https://github.com/gidaseul/gidaseul/assets/61573303/9415ba69-057a-4c22-ab50-7ac430cff445)
+
 
 <img align='right' src='https://private-user-images.githubusercontent.com/61573303/342048266-9415ba69-057a-4c22-ab50-7ac430cff445.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTkxMjk2MTQsIm5iZiI6MTcxOTEyOTMxNCwicGF0aCI6Ii82MTU3MzMwMy8zNDIwNDgyNjYtOTQxNWJhNjktMDU3YS00YzIyLWFiNTAtN2FjNDMwY2ZmNDQ1LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjIzVDA3NTUxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ4YzJmMzZhNWMyM2YzZWNkOThmNmMwODE5N2U3NmY4MzkxMGZjYzVlOTczZWFiZTk2Mjg3NTc2MjA3ZjI4ZDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.VOMJWvyFIaE-kbxoOAlubd5V54AotAgzuDa0y4_L7Ec' width='200'>
 
