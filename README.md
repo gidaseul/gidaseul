@@ -56,18 +56,30 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
       <th colspan="2">대회명</th>
       <th>수상 내역</th>
       <th>기간</th>
+      <th>자료(링크)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td colspan="2">**대회 이름**</td>
-      <td>**수상 등급**</td>
-      <td>2024.01 - 2024.03</td>
+      <td colspan="2">2019 대한민국 인재상</td>
+      <td>부총리 겸 교육부장관상)</td>
+      <td>2019</td>
+      <td><a href = ""></td>
     </tr>
     <tr>
-      <td colspan="2">**다른 대회 이름**</td>
-      <td>**수상 등급**</td>
-      <td>2023.09 - 2023.11</td>
+      <td colspan="2">제2회 전라남도 으뜸인재 발탁</td>
+      <td>전남인재평생교육진흥원</td>
+      <td>2021~2025(4학년 재능계발비 지원)</td>
+    </tr>
+      <tr>
+      <td colspan="2">2024학년도 소프트웨어공모전(비교과) 수상</td>
+      <td>은상</td>
+      <td>2024.04 - 2024.08</td>
+    </tr>
+      <tr>
+      <td colspan="2">숭실대학교 프로그래밍대회 (2024 SCON)</td>
+      <td>은상</td>
+      <td>2024.06.19</td>
     </tr>
   </tbody>
 </table>
@@ -100,7 +112,12 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
      <tr>
       <td>창업 : Syncorbis </td>
       <td>Bio & SW Engineer - 생명 자동화 실험기기 설계 및 기획</td>
-      <td>2021.03.01 ~ 2022.03</td>
+      <td>2021.03 ~ 2022.03</td>
+    </tr>
+     <tr>
+      <td>Pre-스타트업팀 육성 프로그램(비기닝 창업동아리)</td>
+      <td>숭실대학교-창업 프로그램 이수</td>
+      <td>2021.05 ~ 2022.01</td>
     </tr>
   </tbody>
 </table>
