@@ -74,16 +74,25 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
       <td colspan="2">제2회 전라남도 으뜸인재 발탁</td>
       <td>전남인재평생교육진흥원</td>
       <td>2021~2025(4학년 재능계발비 지원)</td>
+      <td>
+          <a href = "https://www.jntle.kr/main/uBusiness9">[자료]
+      </td>
     </tr>
       <tr>
       <td colspan="2">2024학년도 소프트웨어공모전(비교과) 수상</td>
       <td>은상</td>
       <td>2024.04 - 2024.08</td>
+      <td>
+          <a href = "https://private-user-images.githubusercontent.com/61573303/486014413-55779d0c-4385-4317-ae51-5ab01dca7e2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwNjA2NjIsIm5iZiI6MTc1NzA2MDM2MiwicGF0aCI6Ii82MTU3MzMwMy80ODYwMTQ0MTMtNTU3NzlkMGMtNDM4NS00MzE3LWFlNTEtNWFiMDFkY2E3ZTJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA1VDA4MTkyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI4YzkxNTVmODljZDk3NDk4MGI4MjI5OTU4OWRlZmVkMzU2ODIwYzg1NzU2ODM2NTVhZjIyYTZhOTkwYTdiYWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.m0CZ2yn55NZ5mI-US2cEhsdXrqBxcWxW53hD8k2NCLI">[자료]
+      </td>
     </tr>
       <tr>
       <td colspan="2">숭실대학교 프로그래밍대회 (2024 SCON)</td>
       <td>은상</td>
       <td>2024.06.19</td>
+      <td>
+          <a href = "https://www.jntle.kr/main/uBusiness9">[자료]
+      </td>
     </tr>
   </tbody>
 </table>
