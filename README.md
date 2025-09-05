@@ -29,19 +29,19 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
         </a>
       </td>
       <td>
-        <a href="https://lgaimers.ai/" target="_blank">
-          <img src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7" alt="LG Aimers 로고">
-          <br>
-          <br>
-          LG Aimers 7기 수료
-        </a>
-      </td>
-      <td>
         <a href="https://fastcampus.co.kr/" target="_blank">
           <img src="https://github.com/user-attachments/assets/6274866d-57de-4e6e-98c5-63d715be8edc" alt="개발자를 위한 MLOps : 추천 시스템 구축부터 최적화까지">
           <br>
           <br>
           개발자를 위한 MLOps : 추천 시스템 구축부터 최적화까지
+        </a>
+      </td>
+      <td>
+        <a href="https://lgaimers.ai/" target="_blank">
+          <img src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7" alt="LG Aimers 로고">
+          <br>
+          <br>
+          LG Aimers 7기 수료
         </a>
       </td>
     </tr>
