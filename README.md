@@ -64,7 +64,12 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
       <td colspan="2">2019 대한민국 인재상</td>
       <td>부총리 겸 교육부장관상)</td>
       <td>2019</td>
-      <td><a href = ""></td>
+      <td>
+        <a href = "https://www.newsjn.kr/news/articleView.html?idxno=123">
+        <a href = "https://www.jnedu.kr/news/articleView.html?idxno=20845">
+        <a href ="https://www.dmorning.kr/news/articleView.html?idxno=41872">
+
+      </td>
     </tr>
     <tr>
       <td colspan="2">제2회 전라남도 으뜸인재 발탁</td>
