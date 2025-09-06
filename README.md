@@ -183,9 +183,9 @@ Talk to me about:
   <img height="28" loading="lazy" alt="pytorch"
        src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/pytorch/pytorch-original.svg">
   <img height="28" loading="lazy" alt="scikit-learn"
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/scikitlearn/scikitlearn-original.svg">
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/scikit-learn/scikit-learn-original.svg">
   <img height="28" loading="lazy" alt="seaborn"
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/seaborn/seaborn-original.svg">
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/seaborn/seaborn-original.svg">
   <img height="28" loading="lazy" alt="spring"
        src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/spring/spring-original.svg">
   <img height="28" loading="lazy" alt="tensorflow"
