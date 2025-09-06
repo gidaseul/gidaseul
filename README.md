@@ -185,7 +185,7 @@ Talk to me about:
   <img height="28" loading="lazy" alt="scikit-learn"
        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikit-learn/scikit-learn-original.svg">
   <img height="28" loading="lazy" alt="seaborn"
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/seaborn/seaborn-original.svg">
+       src="https://avatars.githubusercontent.com/u/22799945?s=280&v=4">
   <img height="28" loading="lazy" alt="spring"
        src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/spring/spring-original.svg">
   <img height="28" loading="lazy" alt="tensorflow"
