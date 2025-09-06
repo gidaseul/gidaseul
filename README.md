@@ -6,7 +6,7 @@
 I am gidaseul 😃. "I want to be a person who uncovers value through data and builds the foundation for reliable AI by focusing on research that enhances trustworthiness and interpretability."
 
 <div align="center">
-  <img src="https://private-user-images.githubusercontent.com/61573303/342048266-9415ba69-057a-4c22-ab50-7ac430cff445.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwNTYyNjUsIm5iZiI6MTc1NzA1NTk2NSwicGF0aCI6Ii82MTU3MzMwMy8zNDIwNDgyNjYtOTQxNWJhNjktMDU3YS00YzIyLWFiNTAtN2FjNDMwY2ZmNDQ1LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA1VDA3MDYwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxODdmMGJlMzY5YmRiNDBmY2QzOTA1MjUwZDU1YTgxNzQ2ZmFmY2Y2Mjc3M2M4NTA1OGVkZWFhNzRhMGU1NDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.73bhENs9b56nwmzvb3_C5LDT2-YQQLPCqoMlFzpb2C8" alt="동영상 이미지" width="800" />
+  <img src="https://github.com/gidaseul/gidaseul/assets/61573303/9415ba69-057a-4c22-ab50-7ac430cff445" alt="동영상 이미지" width="800" />
 </div>
 
 ## 👯 Communities
@@ -183,7 +183,7 @@ Talk to me about:
 <p>
   <div align="center">
     <a href="https://github.com/gidaseul/Eagel_eye_QC_score" target="_blank">
-      <img src="https://private-user-images.githubusercontent.com/61573303/485824137-08013203-58d5-4840-99ba-9aecf0dcc099.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwMTQxMDUsIm5iZiI6MTc1NzAxMzgwNSwicGF0aCI6Ii82MTU3MzMwMy80ODU4MjQxMzctMDgwMTMyMDMtNThkNS00ODQwLTk5YmEtOWFlY2YwZGNjMDk5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA0VDE5MjMyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU0ZmVkYWU1NzgzMTc4YzQ4ZjU1MWQyZmRhMmY1MmE0YzliMDIwYTgxZmI3NDRjYTVkZTQ1NmI1MDRhNzFlYmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.6znWwQyME0O0f9C4DKwbiLy6JEgTElnYMvGOogzTQF4" alt="매의 눈 프로젝트(ICT 인턴 - 제휴 가능성 매장 추천 시스템)" width="400">
+      <img src="https://github.com/user-attachments/assets/08013203-58d5-4840-99ba-9aecf0dcc099" alt="매의 눈 프로젝트(ICT 인턴 - 제휴 가능성 매장 추천 시스템)" width="400">
     </a>
     <br>
     <p>
