@@ -183,7 +183,7 @@ Talk to me about:
   <img height="28" loading="lazy" alt="pytorch"
        src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/pytorch/pytorch-original.svg">
   <img height="28" loading="lazy" alt="scikit-learn"
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikit-learn/scikit-learn-original.svg">
+       src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png">
   <img height="28" loading="lazy" alt="seaborn"
        src="https://avatars.githubusercontent.com/u/22799945?s=280&v=4">
   <img height="28" loading="lazy" alt="spring"
