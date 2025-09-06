@@ -155,26 +155,43 @@ Talk to me about:
 ---
 
 <h3 align="left">Languages and Tools I have used:</h3>
-<p align="left">
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws"></code>
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap"></code>
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"></code>
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus"></code>
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"></code>
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker"></code>
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5"></code>
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java"></code>
-  <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab"></code>
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql"></code>
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle"></code>
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas"></code>
-  <code><img height="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"></code>
-  <code><img height="20" src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch"></code>
-  <code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn"></code>
-  <code><img height="20" src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn"></code>
-  <code><img height="20" src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring"></code>
-  <code><img height="20" src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow"></code>
+<p align="left" style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
+  <img height="28" loading="lazy" alt="aws"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg">
+  <img height="28" loading="lazy" alt="bootstrap"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/bootstrap/bootstrap-plain-wordmark.svg">
+  <img height="28" loading="lazy" alt="c"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/c/c-original.svg">
+  <img height="28" loading="lazy" alt="cplusplus"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/cplusplus/cplusplus-original.svg">
+  <img height="28" loading="lazy" alt="css3"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/css3/css3-original-wordmark.svg">
+  <img height="28" loading="lazy" alt="docker"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/docker/docker-original-wordmark.svg">
+  <img height="28" loading="lazy" alt="html5"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/html5/html5-original-wordmark.svg">
+  <img height="28" loading="lazy" alt="java"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/java/java-original.svg">
+  <img height="28" loading="lazy" alt="mysql"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/mysql/mysql-original-wordmark.svg">
+  <img height="28" loading="lazy" alt="oracle"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/oracle/oracle-original.svg">
+  <img height="28" loading="lazy" alt="pandas"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/pandas/pandas-original.svg">
+  <img height="28" loading="lazy" alt="python"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/python/python-original.svg">
+  <img height="28" loading="lazy" alt="pytorch"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/pytorch/pytorch-original.svg">
+  <img height="28" loading="lazy" alt="scikit-learn"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/scikitlearn/scikitlearn-original.svg">
+  <img height="28" loading="lazy" alt="seaborn"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/seaborn/seaborn-original.svg">
+  <img height="28" loading="lazy" alt="spring"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/spring/spring-original.svg">
+  <img height="28" loading="lazy" alt="tensorflow"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/tensorflow/tensorflow-original.svg">
 </p>
+
 
 
 ---
