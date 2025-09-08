@@ -147,8 +147,10 @@ Talk to me about:
 ## Hello World!! 🤔
 - 💬 Ask me about anything and everything.
 - 📫 Read my blogs: [My Velog Blog](https://velog.io/@feelgi/posts), [My Tistory Blog](https://feelgi.tistory.com/).
-- 🎯 Portfolio site: [Portfolio](https://yourportfolio.com).  <!-- 아직 수정 필요-->
+- 🎯 Portfolio site: [Portfolio](https://fragrant-cloudberry-f69.notion.site/1868017e41ad801fb28bff08bd094789?pvs=74).  
 - ⚡ Fun fact: Internet users blink less than usual.
+- 📖 Algorithm : [Baekjoon & Programmer](https://github.com/gidaseul/Baekjoon_Programmer),[Leetcode](https://github.com/gidaseul/Leetcode)
+
 
 ![gidaseul's github stats](https://github-readme-stats.vercel.app/api?username=gidaseul&hide=["issues"]&show_icons=true)
 
@@ -196,7 +198,7 @@ Talk to me about:
 
 ---
 
-<h3 align="left">My Projects:</h3>
+<h3 align="left">💻 My Projects:</h3>
 <p>
   <div align="center">
     <a href="https://github.com/gidaseul/Eagel_eye_QC_score" target="_blank">
@@ -228,3 +230,5 @@ Talk to me about:
     </p>
   </div>
 </p>
+
+
