@@ -152,7 +152,7 @@ Talk to me about:
 - 📖 Algorithm : [Baekjoon & Programmer](https://github.com/gidaseul/Baekjoon_Programmer),[Leetcode](https://github.com/gidaseul/Leetcode)
 
 
-![gidaseul's github stats](https://github-readme-stats.vercel.app/api?username=gidaseul&hide=["issues"]&show_icons=true)
+<!-- ![gidaseul's github stats](https://github-readme-stats.vercel.app/api?username=gidaseul&hide=["issues"]&show_icons=true)-->
 
 ---
 
