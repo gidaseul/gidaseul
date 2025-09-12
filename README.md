@@ -24,24 +24,19 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
           <img src="https://github.com/user-attachments/assets/0547901c-ed69-4d81-a020-4dd6072572f9" alt="부스트코스 DATA SCIENCE PROJECTS 로고">
           <br>
           <br>
-          부스트코스 <DATA SCIENCE PROJECTS> 코칭스터디 - (모두의 연구소 x boostcourrse) 수료
-        </a>
+            <a href="https://www.boostcourse.org" target="_blank" rel="noopener noreferrer">부스트코스 <DATA SCIENCE PROJECTS> 코칭스터디 - (모두의 연구소 x boostcourrse) 수료</a>
       </td>
       <td>
-        <a href="https://fastcampus.co.kr/" target="_blank" rel="noopener noreferrer">
           <img src="https://github.com/user-attachments/assets/6274866d-57de-4e6e-98c5-63d715be8edc" alt="개발자를 위한 MLOps : 추천 시스템 구축부터 최적화까지">
           <br>
           <br>
-          개발자를 위한 MLOps : 추천 시스템 구축부터 최적화까지
-        </a>
+            <a href="https://fastcampus.co.kr/" target="_blank" rel="noopener noreferrer">개발자를 위한 MLOps : 추천 시스템 구축부터 최적화까지</a>
       </td>
       <td>
-        <a href="https://lgaimers.ai/" target="_blank" rel="noopener noreferrer">
           <img src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7" alt="LG Aimers 로고">
           <br>
-          <br>
-          LG Aimers 7기 수료
-        </a>
+          <br>        
+            <a href="https://lgaimers.ai/" target="_blank" rel="noopener noreferrer">LG Aimers 7기 수료</a>
       </td>
     </tr>
   </tbody>
