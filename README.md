@@ -21,7 +21,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
   <tbody>
     <tr>
       <td>
-        <a href="https://www.boostcourse.org" target="_blank"">
+        <a href="https://www.boostcourse.org" target="_blank" rel="noopener noreferrer">
           <img src="https://github.com/user-attachments/assets/0547901c-ed69-4d81-a020-4dd6072572f9" alt="부스트코스 DATA SCIENCE PROJECTS 로고">
           <br>
           <br>
@@ -29,7 +29,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
         </a>
       </td>
       <td>
-        <a href="https://fastcampus.co.kr/" target="_blank">
+        <a href="https://fastcampus.co.kr/" target="_blank" rel="noopener noreferrer">
           <img src="https://github.com/user-attachments/assets/6274866d-57de-4e6e-98c5-63d715be8edc" alt="개발자를 위한 MLOps : 추천 시스템 구축부터 최적화까지">
           <br>
           <br>
@@ -37,7 +37,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
         </a>
       </td>
       <td>
-        <a href="https://lgaimers.ai/" target="_blank">
+        <a href="https://lgaimers.ai/" target="_blank" rel="noopener noreferrer">
           <img src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7" alt="LG Aimers 로고">
           <br>
           <br>
@@ -65,9 +65,9 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
       <td>부총리 겸 교육부장관상)</td>
       <td>2019</td>
       <td>
-        <a href = "https://www.newsjn.kr/news/articleView.html?idxno=123"> [기사1]
-        <a href = "https://www.jnedu.kr/news/articleView.html?idxno=20845"> [기사2]
-        <a href ="https://www.dmorning.kr/news/articleView.html?idxno=41872"> [기사3]
+        <a href = "https://www.newsjn.kr/news/articleView.html?idxno=123" rel="noopener noreferrer"> [기사1]
+        <a href = "https://www.jnedu.kr/news/articleView.html?idxno=20845" rel="noopener noreferrer"> [기사2]
+        <a href ="https://www.dmorning.kr/news/articleView.html?idxno=41872"rel="noopener noreferrer"> [기사3]
       </td>
     </tr>
     <tr>
@@ -75,7 +75,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
       <td>전남인재평생교육진흥원</td>
       <td>2021~2025(4학년 재능계발비 지원)</td>
       <td>
-          <a href = "https://www.jntle.kr/main/uBusiness9">[자료]
+          <a href = "https://www.jntle.kr/main/uBusiness9"rel="noopener noreferrer">[자료]
       </td>
     </tr>
       <tr>
@@ -83,7 +83,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
       <td>은상</td>
       <td>2024.04 - 2024.08</td>
       <td>
-          <a href = "https://private-user-images.githubusercontent.com/61573303/486014413-55779d0c-4385-4317-ae51-5ab01dca7e2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwNjA2NjIsIm5iZiI6MTc1NzA2MDM2MiwicGF0aCI6Ii82MTU3MzMwMy80ODYwMTQ0MTMtNTU3NzlkMGMtNDM4NS00MzE3LWFlNTEtNWFiMDFkY2E3ZTJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA1VDA4MTkyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI4YzkxNTVmODljZDk3NDk4MGI4MjI5OTU4OWRlZmVkMzU2ODIwYzg1NzU2ODM2NTVhZjIyYTZhOTkwYTdiYWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.m0CZ2yn55NZ5mI-US2cEhsdXrqBxcWxW53hD8k2NCLI">[자료]
+          <a href = "https://private-user-images.githubusercontent.com/61573303/486014413-55779d0c-4385-4317-ae51-5ab01dca7e2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwNjA2NjIsIm5iZiI6MTc1NzA2MDM2MiwicGF0aCI6Ii82MTU3MzMwMy80ODYwMTQ0MTMtNTU3NzlkMGMtNDM4NS00MzE3LWFlNTEtNWFiMDFkY2E3ZTJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA1VDA4MTkyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI4YzkxNTVmODljZDk3NDk4MGI4MjI5OTU4OWRlZmVkMzU2ODIwYzg1NzU2ODM2NTVhZjIyYTZhOTkwYTdiYWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.m0CZ2yn55NZ5mI-US2cEhsdXrqBxcWxW53hD8k2NCLI" rel="noopener noreferrer">[자료]
       </td>
     </tr>
       <tr>
@@ -91,7 +91,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
       <td>은상</td>
       <td>2024.06.19</td>
       <td>
-          <a href = "https://private-user-images.githubusercontent.com/61573303/486014881-1d80c517-28c4-412e-a4f6-dccbe26c3517.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwNjA3MzUsIm5iZiI6MTc1NzA2MDQzNSwicGF0aCI6Ii82MTU3MzMwMy80ODYwMTQ4ODEtMWQ4MGM1MTctMjhjNC00MTJlLWE0ZjYtZGNjYmUyNmMzNTE3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA1VDA4MjAzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTllNDQzNWVlZjdmYjRiZDNjODk5NTYyYzQyMDUyYTgyZDAzNDRmN2E2ZTYzOTU4M2RhYzY4ZDk4NzI0MmUwMzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.YybyzXwtptT5LyzKJrqUMO7bS9bHIycvki1vR47VKlk">[자료]
+          <a href = "https://private-user-images.githubusercontent.com/61573303/486014881-1d80c517-28c4-412e-a4f6-dccbe26c3517.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwNjA3MzUsIm5iZiI6MTc1NzA2MDQzNSwicGF0aCI6Ii82MTU3MzMwMy80ODYwMTQ4ODEtMWQ4MGM1MTctMjhjNC00MTJlLWE0ZjYtZGNjYmUyNmMzNTE3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA1VDA4MjAzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTllNDQzNWVlZjdmYjRiZDNjODk5NTYyYzQyMDUyYTgyZDAzNDRmN2E2ZTYzOTU4M2RhYzY4ZDk4NzI0MmUwMzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.YybyzXwtptT5LyzKJrqUMO7bS9bHIycvki1vR47VKlk" rel="noopener noreferrer">[자료]
       </td>
     </tr>
   </tbody>
