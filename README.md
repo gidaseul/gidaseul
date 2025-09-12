@@ -21,7 +21,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
   <tbody>
     <tr>
       <td>
-        <a href="https://www.boostcourse.org" target="_blank">
+        <a href="https://www.boostcourse.org" target="_new">
           <img src="https://github.com/user-attachments/assets/0547901c-ed69-4d81-a020-4dd6072572f9" alt="부스트코스 DATA SCIENCE PROJECTS 로고">
           <br>
           <br>
