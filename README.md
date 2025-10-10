@@ -141,7 +141,7 @@ Talk to me about:
 ## Hello World!! 🤔
 - 💬 Ask me about anything and everything.
 - 📫 Read my blogs: [My Velog Blog](https://velog.io/@feelgi/posts), [My Tistory Blog](https://feelgi.tistory.com/).
-- 🎯 Portfolio site: [Portfolio[이력서]](https://fragrant-cloudberry-f69.notion.site/1868017e41ad801fb28bff08bd094789).  
+- 🎯 Portfolio site: [Portfolio[이력서 링크]](https://fragrant-cloudberry-f69.notion.site/1868017e41ad801fb28bff08bd094789).
 - ⚡ Fun fact: Internet users blink less than usual.
 - 📖 Algorithm : [Baekjoon & Programmer](https://github.com/gidaseul/Baekjoon_Programmer),[Leetcode](https://github.com/gidaseul/Leetcode)
 
