@@ -118,8 +118,7 @@ I am gidaseul 😃. "I want to be a person who uncovers value through data and b
     </tr>
      <tr>
       <td>창업 : Syncorbis </td>
-      <td>
-        <a href src = "https://doi.org/10.8080/1020210123255"> Bio & SW Engineer - 생명 자동화 실험기기 설계 및 기획 </a> </td>
+      <td> Bio & SW Engineer - <a href = "https://doi.org/10.8080/1020210123255"> 생명 자동화 실험기기 설계 및 기획 </td>
       <td>2021.03 ~ 2022.03</td>
     </tr>
      <tr>
