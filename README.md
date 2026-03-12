@@ -3,7 +3,7 @@
 [![Gmail Badge](https://img.shields.io/badge/-rlektmf0328@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rlektmf0328@gmail.com)](mailto:rlektmf0328@gmail.com)
 [![Instagram Badge](https://img.shields.io/badge/-gidaseul-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/gidaseul)](https://instagram.com/gidaseul)
 
-I am gidaseul 😃. "I want to be a person who uncovers value through data and builds the foundation for reliable AI by focusing on research that enhances trustworthiness and interpretability."
+ 세상의 변화와 데이터의 연결고리를 끝까지 파고드는 호기심을 바탕으로, 신뢰성과 해석 가능성을 높이는 연구를 통해 데이터의 가치를 발견하고 사람들이 믿고 활용할 수 있는 AI의 기반을 만드는 사람이 되고 싶습니다. 
 
 <div align="center">
   <img src="https://github.com/gidaseul/gidaseul/assets/61573303/9415ba69-057a-4c22-ab50-7ac430cff445" alt="동영상 이미지" width="800" />
