@@ -6,8 +6,27 @@
  세상의 변화와 데이터의 연결고리를 끝까지 파고드는 호기심을 바탕으로, 신뢰성과 해석 가능성을 높이는 연구를 통해 데이터의 가치를 발견하고 사람들이 믿고 활용할 수 있는 AI의 기반을 만드는 사람이 되고 싶습니다. 
 
 <div align="center">
-  <img src="https://github.com/gidaseul/gidaseul/assets/61573303/9415ba69-057a-4c22-ab50-7ac430cff445" alt="동영상 이미지" width="800" />
+  <img src="https://github.com/gidaseul/gidaseul/assets/61573303/9415ba69-057a-4c22-ab50-7ac430cff445" alt="동영상 이미지" width="600" />
 </div>
+
+## 🧠 Algorithm Solutions (Preview)
+
+<p align="center">
+  <a href="https://github.com/gidaseul/Algorithm-Solutions">
+    <img src="https://img.shields.io/badge/Repository-Algorithm--Solutions-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://github.com/gidaseul/Algorithm-Solutions/actions">
+    <img src="https://img.shields.io/badge/Auto%20Sync-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://solved.ac/hye0328">
+    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=hye0328" />
+  </a>
+</p>
+
+
 
 ## 👯 Communities
 <table>
