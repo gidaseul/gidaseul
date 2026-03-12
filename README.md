@@ -195,8 +195,8 @@ Talk to me about:
 <h3 align="left">💻 My Projects:</h3>
 <p>
   <div align="center">
-    <a href="https://github.com/gidaseul/Eagel_eye_QC_score" target="_blank">
-      <img src="https://github.com/user-attachments/assets/08013203-58d5-4840-99ba-9aecf0dcc099" alt="매의 눈 프로젝트(ICT 인턴 - 제휴 가능성 매장 추천 시스템)" width="400">
+    <a href="" target="_blank">
+      <img src="" alt="매의 눈 프로젝트(ICT 인턴 - 제휴 가능성 매장 추천 시스템)" width="400">
     </a>
     <br>
     <p>
