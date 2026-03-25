@@ -9,22 +9,55 @@
   <img src="https://github.com/gidaseul/gidaseul/assets/61573303/9415ba69-057a-4c22-ab50-7ac430cff445" alt="동영상 이미지" width="600" />
 </div>
 
-## 🧠 Algorithm Solutions (Preview)
+## 🧠 Algorithm Solutions (Live)
+
+자동 집계되는 [Algorithm-Solutions](https://github.com/gidaseul/Algorithm-Solutions) 레포와 연결해, 프로필에서도 알고리즘 진행 상황을 바로 볼 수 있게 구성했습니다.
 
 <p align="center">
   <a href="https://github.com/gidaseul/Algorithm-Solutions">
     <img src="https://img.shields.io/badge/Repository-Algorithm--Solutions-181717?style=for-the-badge&logo=github" />
   </a>
-  <a href="https://github.com/gidaseul/Algorithm-Solutions/actions">
-    <img src="https://img.shields.io/badge/Auto%20Sync-GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <a href="https://github.com/gidaseul/Algorithm-Solutions#-problem-statistics">
+    <img src="https://img.shields.io/badge/Problem%20Stats-Live%20README-2EA44F?style=for-the-badge&logo=readme&logoColor=white" />
+  </a>
+  <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
+    <img src="https://img.shields.io/badge/Progress-Dashboard-6F42C1?style=for-the-badge&logo=githubprojects&logoColor=white" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://solved.ac/hye0328">
-    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=hye0328" />
+    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=hye0328" alt="Solved.ac Profile" />
   </a>
 </p>
+
+<p align="center">
+  <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
+    <img src="https://raw.githubusercontent.com/gidaseul/Algorithm-Solutions/main/assets/bj_progress.svg" width="560" alt="Baekjoon Progress" />
+  </a>
+</p>
+
+<details>
+  <summary><b>More platform progress</b></summary>
+  <br>
+  <p align="center">
+    <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
+      <img src="https://raw.githubusercontent.com/gidaseul/Algorithm-Solutions/main/assets/programmers_progress.svg" width="560" alt="Programmers Progress" />
+    </a>
+    <br><br>
+    <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
+      <img src="https://raw.githubusercontent.com/gidaseul/Algorithm-Solutions/main/assets/swea_progress.svg" width="560" alt="SWEA Progress" />
+    </a>
+    <br><br>
+    <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
+      <img src="https://raw.githubusercontent.com/gidaseul/Algorithm-Solutions/main/assets/codetree_progress.svg" width="560" alt="Codetree Progress" />
+    </a>
+    <br><br>
+    <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
+      <img src="https://raw.githubusercontent.com/gidaseul/Algorithm-Solutions/main/assets/leetcode_progress.svg" width="560" alt="LeetCode Progress" />
+    </a>
+  </p>
+</details>
 
 
 
@@ -162,7 +195,7 @@ Talk to me about:
 - 📫 Read my blogs: [My Velog Blog](https://velog.io/@feelgi/posts), [My Tistory Blog](https://feelgi.tistory.com/).
 - 🎯 Portfolio site: [Portfolio[이력서 링크]](https://fragrant-cloudberry-f69.notion.site/1868017e41ad801fb28bff08bd094789).
 - ⚡ Fun fact: Internet users blink less than usual.
-- 📖 Algorithm : [Baekjoon & Programmer](https://github.com/gidaseul/Baekjoon_Programmer),[Leetcode](https://github.com/gidaseul/Leetcode)
+- 📖 Algorithm : [Algorithm-Solutions](https://github.com/gidaseul/Algorithm-Solutions) · [solved.ac](https://solved.ac/hye0328) · [LeetCode Folder](https://github.com/gidaseul/Algorithm-Solutions/tree/main/Leetcode)
 
 
 <!-- ![gidaseul's github stats](https://github-readme-stats.vercel.app/api?username=gidaseul&hide=["issues"]&show_icons=true)-->
@@ -243,5 +276,4 @@ Talk to me about:
     </p>
   </div>
 </p>
-
 
