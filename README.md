@@ -63,14 +63,13 @@
 
 ## 🗂 Featured Portfolio
 
-프로필에서 주요 작업을 빠르게 훑을 수 있도록 카테고리별로 정리했습니다.
+프로필에서 주요 작업을 빠르게 훑을 수 있도록, 대표 프로젝트를 이미지와 함께 항목별로 정리했습니다.
 
-| Category | Project | Focus | Link |
+| Category | Project | Preview | Focus |
 |---|---|---|---|
-| Research & Medical AI | Brain MRI Research | `ResNet3D-18` baseline, 3D feature learning, CAM interpretation | [Repo](https://github.com/gidaseul/brain-mri-research) |
-| Research & Medical AI | Capstone Pose | `YOLO + MediaPipe + LSTM` 기반 실시간 낙상 감지 파이프라인 | [Repo](https://github.com/gidaseul/capstone_pose) |
-| Applied ML & Service | Babbogi | 섭취 기록 기반 영양소 관리 서비스 | [Repo](https://github.com/gidaseul/babbogi) |
-| Problem Solving | Algorithm Solutions | GitHub Actions 기반 자동 집계 README와 진행률 대시보드 | [Repo](https://github.com/gidaseul/Algorithm-Solutions) |
+| 학부연구생 | [Brain MRI Research](https://github.com/gidaseul/brain-mri-research) | <img src="https://raw.githubusercontent.com/gidaseul/brain-mri-research/main/assets/output_video_preview.gif" width="220" alt="Brain MRI Research Preview" /> | `ResNet3D-18` baseline, 3D feature learning, CAM interpretation |
+| 캡스톤 프로젝트 | [Capstone Pose](https://github.com/gidaseul/capstone_pose) | <img src="https://github.com/user-attachments/assets/e9b5b0ab-ff87-478e-a8c1-96cbd2d7cbf1" width="220" alt="Capstone Pose Preview" /> | `YOLO + MediaPipe + LSTM` 기반 실시간 낙상 감지 파이프라인 |
+| 소프트웨어 공모전 | [Babbogi](https://github.com/gidaseul/babbogi) | <img src="https://github.com/user-attachments/assets/7ca475d8-b913-431b-b025-9d86def286ad" width="180" alt="Babbogi Preview" /> | 섭취 기록 기반 영양소 관리 서비스 |
 
 <details>
   <summary><b>What each project highlights</b></summary>
@@ -79,7 +78,6 @@
 - `Brain MRI Research`: 3D 볼륨 입력을 `ResNet3D-18`으로 학습하고, `CAM`으로 모델이 주목한 영역을 확인한 공개용 연구 레포
 - `Capstone Pose`: 1차 탐지와 2차 시계열 분류를 결합한 실시간 낙상 감지 시스템
 - `Babbogi`: 생활 데이터 기반으로 식습관과 영양소 섭취를 관리하는 서비스 프로젝트
-- `Algorithm Solutions`: 구조는 수동 관리하고 수치는 자동 생성하는 deterministic README 시스템
 </details>
 
 ## 👯 Communities
