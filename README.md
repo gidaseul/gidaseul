@@ -78,6 +78,19 @@
 
 ---
 
+### 머신러닝 프로젝트 | [Machine Learning Project](https://github.com/gidaseul/machine-learning-project)
+`ROI + HOG + XGBoost` 기반 단순 이미지 분류와 `Autoencoder + Contrastive Learning` 기반 표현학습 비교 아카이브
+
+<p align="center">
+  <a href="https://github.com/gidaseul/machine-learning-project">
+    <img src="https://raw.githubusercontent.com/gidaseul/machine-learning-project/main/assets/images/representation-latent-evidence.png" width="520" alt="Machine Learning Project Preview" />
+  </a>
+</p>
+
+학부연구생 과정에서 SportsBall 데이터의 전처리 조합 효율성을 직접 실험하고, 그 탐구를 `단순 이미지 분류`와 `표현학습` 두 방법으로 다시 정리한 머신러닝 프로젝트 레포입니다.
+
+---
+
 ### 캡스톤 프로젝트 | [Capstone Pose](https://github.com/gidaseul/capstone_pose)
 `YOLO + MediaPipe + LSTM` 기반 실시간 낙상 감지 파이프라인
 
@@ -234,7 +247,7 @@ Talk to me about:
 ## 🔗 Quick Links
 - Blog: [Velog](https://velog.io/@feelgi/posts) · [Tistory](https://feelgi.tistory.com/)
 - Portfolio: [Notion Portfolio](https://fragrant-cloudberry-f69.notion.site/1868017e41ad801fb28bff08bd094789)
-- Research: [Brain MRI Research](https://github.com/gidaseul/brain-mri-research) · [Capstone Pose](https://github.com/gidaseul/capstone_pose)
+- Research: [Brain MRI Research](https://github.com/gidaseul/brain-mri-research) · [Machine Learning Project](https://github.com/gidaseul/machine-learning-project) · [Capstone Pose](https://github.com/gidaseul/capstone_pose)
 - Problem Solving: [Algorithm-Solutions](https://github.com/gidaseul/Algorithm-Solutions) · [solved.ac](https://solved.ac/hye0328) · [LeetCode Folder](https://github.com/gidaseul/Algorithm-Solutions/tree/main/Leetcode)
 
 
