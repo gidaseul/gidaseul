@@ -225,7 +225,7 @@
      <tr>
       <td>창업 : Syncorbis </td>
       <td> Bio & SW Engineer - <a href = "https://doi.org/10.8080/1020210123255"> 생명 자동화 실험기기 설계 및 기획 </td>
-      <td>2021.03 ~ 2022.03</td>
+      <td>2021.02 ~ 2021.09</td>
     </tr>
      <tr>
       <td>Pre-스타트업팀 육성 프로그램(비기닝 창업동아리)</td>
