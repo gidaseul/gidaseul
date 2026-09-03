@@ -1,298 +1,85 @@
-<h2> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚌𝚘𝚍𝚎𝚛𝚜/>! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
+# 기다슬 | Applied AI Engineer
 
-[![Gmail Badge](https://img.shields.io/badge/-rlektmf0328@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rlektmf0328@gmail.com)](mailto:rlektmf0328@gmail.com)
-[![Instagram Badge](https://img.shields.io/badge/-gidaseul-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/gidaseul)](https://instagram.com/gidaseul)
+사용자와 현업의 문제를 **데이터 파이프라인과 평가 가능한 AI 시스템**으로 연결합니다.  
+모델 성능만 보고 끝내지 않고, 입력 데이터·실패 원인·운영 조건을 분석해 실제로 사용할 수 있는 형태까지 구현합니다.
 
- 세상의 변화와 데이터의 연결고리를 끝까지 파고드는 호기심을 바탕으로, 신뢰성과 해석 가능성을 높이는 연구를 통해 데이터의 가치를 발견하고 사람들이 믿고 활용할 수 있는 AI의 기반을 만드는 사람이 되고 싶습니다. 
+- **Applied AI** — ML·LLM 모델을 API와 자동화 파이프라인으로 연결
+- **Evaluation** — 정확도뿐 아니라 Recall, 비용, 실패 사례와 데이터 품질을 함께 검토
+- **Reliable Engineering** — 재현 가능한 실험, 예외 처리, 설명 가능성, CI/CD를 지향
 
-<div align="center">
-  <img src="https://github.com/gidaseul/gidaseul/assets/61573303/9415ba69-057a-4c22-ab50-7ac430cff445" alt="동영상 이미지" width="600" />
-</div>
+## Featured Work
 
-## 🧠 Algorithm Solutions (Live)
+### 매의 눈 — AI 기반 잠재 매장 발굴 시스템
 
-자동 집계되는 [Algorithm-Solutions](https://github.com/gidaseul/Algorithm-Solutions) 레포와 연결해, 프로필에서도 알고리즘 진행 상황을 바로 볼 수 있게 구성했습니다.
+> 인턴십 · End-to-End Applied AI · 코드 및 원천 데이터 비공개
 
-<p align="center">
-  <a href="https://github.com/gidaseul/Algorithm-Solutions">
-    <img src="https://img.shields.io/badge/Repository-Algorithm--Solutions-181717?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://github.com/gidaseul/Algorithm-Solutions#-problem-statistics">
-    <img src="https://img.shields.io/badge/Problem%20Stats-Live%20README-2EA44F?style=for-the-badge&logo=readme&logoColor=white" />
-  </a>
-  <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
-    <img src="https://img.shields.io/badge/Progress-Dashboard-6F42C1?style=for-the-badge&logo=githubprojects&logoColor=white" />
-  </a>
-</p>
+영업 담당자가 수작업으로 신규 매장을 찾고 평가하던 과정을 데이터 수집, ML·LLM 분류, QC Score, API 호출이 연결된 파이프라인으로 전환했습니다. 개발 전 과정을 단독 수행했으며, 영업팀·QC Center·AI 콘텐츠팀의 검수 기준을 시스템 설계에 반영했습니다.
 
-<p align="center">
-  <a href="https://solved.ac/hye0328">
-    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=hye0328" alt="Solved.ac Profile" />
-  </a>
-</p>
+**담당:** Selenium 기반 멀티소스 수집 · XGBoost/SBERT 실험 · Gemini 의미 기반 분류 · SHAP · FastAPI · Docker · AWS S3  
+**핵심 판단:** 기존 제휴 매장과의 유사도만으로는 신규 후보를 발굴하기 어렵다는 한계를 확인하고, 인기도 예측·제휴 가능성·LLM 카테고리 분류를 분리했습니다.  
+**증거 범위:** 회사 코드와 데이터는 공개하지 않으며, 공개 가능한 설계·역할·검증 범위만 [Case Study](case-studies/eagle-eye.md)에 정리했습니다.
 
-<p align="center">
-  <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
-    <img src="https://raw.githubusercontent.com/gidaseul/Algorithm-Solutions/main/assets/bj_progress.svg" width="560" alt="Baekjoon Progress" />
-  </a>
-</p>
+### [Capstone Pose — 실시간 낙상 감지](https://github.com/gidaseul/capstone_pose)
 
-<details>
-  <summary><b>More platform progress</b></summary>
-  <br>
-  <p align="center">
-    <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
-      <img src="https://raw.githubusercontent.com/gidaseul/Algorithm-Solutions/main/assets/programmers_progress.svg" width="560" alt="Programmers Progress" />
-    </a>
-    <br><br>
-    <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
-      <img src="https://raw.githubusercontent.com/gidaseul/Algorithm-Solutions/main/assets/swea_progress.svg" width="560" alt="SWEA Progress" />
-    </a>
-    <br><br>
-    <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
-      <img src="https://raw.githubusercontent.com/gidaseul/Algorithm-Solutions/main/assets/codetree_progress.svg" width="560" alt="Codetree Progress" />
-    </a>
-    <br><br>
-    <a href="https://github.com/gidaseul/Algorithm-Solutions#-platform-progress">
-      <img src="https://raw.githubusercontent.com/gidaseul/Algorithm-Solutions/main/assets/leetcode_progress.svg" width="560" alt="LeetCode Progress" />
-    </a>
-  </p>
-</details>
+> Computer Vision · Real-time Pipeline · Team Lead
 
+RGB 카메라에서 YOLO로 사람 영역을 제한하고, MediaPipe의 33개 관절 좌표와 LSTM 시퀀스 모델을 결합한 2단계 낙상 감지 프로토타입입니다. 처리 지연으로 오래된 프레임이 쌓이지 않도록 프로세스 간 큐를 1개로 제한해 최신 프레임을 우선 처리했습니다.
 
+**담당:** 전체 파이프라인 및 멀티프로세싱 구조 설계 · YOLO/MediaPipe/LSTM 연동 · 팀 리딩  
+**검증:** `(150, 99)` 키포인트 시퀀스 · 5회 연속 규칙 트리거 · LSTM 임계값 `0.7` · 이벤트 영상 저장  
+**한계:** 전체 테스트셋 Precision/Recall/F1은 아직 정리되지 않아 성능 주장에 포함하지 않습니다.
 
-## 🗂 Featured Portfolio
+### [Visual Representation Analysis](https://github.com/gidaseul/machine-learning-project)
 
-프로필에서 주요 작업을 빠르게 훑을 수 있도록, 대표 프로젝트를 카드처럼 읽히는 구조로 정리했습니다.
+> Classical ML · Representation Learning · Failure Analysis
 
-### 학부연구생 | [Brain MRI Research](https://github.com/gidaseul/brain-mri-research)
-`ResNet3D-18` baseline, 3D feature learning, CAM interpretation
+MNIST와 배경 잡음이 큰 SportsBall 데이터에 대해 ROI, HOG/PCA/Sobel, SVM/XGBoost와 CNN·Autoencoder·Contrastive Learning을 비교했습니다. 팀 산출물과 개인 실험 로그를 분리하고, 낮은 성능도 숨기지 않은 채 입력 품질과 latent space 관점에서 원인을 분석했습니다.
 
-<p align="center">
-  <a href="https://github.com/gidaseul/brain-mri-research">
-    <img src="https://raw.githubusercontent.com/gidaseul/brain-mri-research/main/assets/output_video_preview.gif" width="520" alt="Brain MRI Research Preview" />
-  </a>
-</p>
+**개인 탐구:** ROI 추출 · 전처리 순서 · HOG+색상 히스토그램 · 분류기 비교  
+**결과:** MNIST `98.0%` · SportsBall base CNN `48.0%`; 표현학습 실패 구간은 t-SNE와 heatmap으로 분석  
+**증거:** 실험 노트북 · 개인 로그 · 보고서/PDF · 시각화 자료
 
-3D 볼륨 입력을 `ResNet3D-18`으로 학습하고, `CAM`으로 모델이 주목한 영역을 확인한 공개용 연구 레포입니다.
+### 후판 Scale 불량 예측
 
----
+> Manufacturing AI · Statistical Analysis · Cost-aware Evaluation
 
-### 머신러닝 프로젝트 | [Machine Learning Project](https://github.com/gidaseul/machine-learning-project)
-`ROI + HOG + XGBoost` 기반 단순 이미지 분류와 `Autoencoder + Contrastive Learning` 기반 표현학습 비교 아카이브
+1,000건의 후판 공정 데이터에서 불가능한 센서값과 HSB 조건의 완전분리 문제를 발견하고, 공정 규칙·통계적 설명·예측 모델을 분리했습니다. 5인 팀에서 모델링을 담당했으며, 정확도보다 불량 미탐을 줄이는 Recall을 우선했습니다.
 
-<p align="center">
-  <a href="https://github.com/gidaseul/machine-learning-project">
-    <img src="https://raw.githubusercontent.com/gidaseul/machine-learning-project/main/assets/images/representation-latent-evidence.png" width="520" alt="Machine Learning Project Preview" />
-  </a>
-</p>
+**담당:** EDA · VIF/카이제곱 검정 · 로지스틱 회귀 해석 · 트리 계열 모델 비교 · 임계값 검토  
+**팀 결과:** XGBoost 후보 `Precision 100%`, `Recall 95.88%`, `ROC-AUC 0.9883`  
+**적용안:** AI 1차 선별 후 의심 제품만 정밀 검사하는 2단계 품질관리 흐름  
+**증거 범위:** 교육 데이터와 팀 산출물을 기반으로 하며, 세부 조건은 [Case Study](case-studies/posco-steel-quality.md)에 구분해 기록했습니다.
 
-학교 수업에서 진행한 머신러닝 과목 프로젝트를 바탕으로, SportsBall 데이터의 전처리 조합 효율성 탐구를 `단순 이미지 분류`와 `표현학습` 두 방법으로 다시 정리한 머신러닝 프로젝트 레포입니다.
+## Research & Prototypes
 
----
+- [Brain MRI Research](https://github.com/gidaseul/brain-mri-research) — 3D MRI 입력 표준화와 CAM 해석을 정리한 공개 연구 기록. 팀 baseline 수치와 개인 기여를 분리해 표기합니다.
+- [Docent AI Prototype](https://github.com/gidaseul/tts) — RAG·LLM·TTS를 연결한 공개 기술 프로토타입. 외부 API 없는 테스트와 검색 평가를 보강 중입니다.
+- [Algorithm Solutions](https://github.com/gidaseul/Algorithm-Solutions) — 여러 알고리즘 플랫폼의 풀이와 통계를 GitHub Actions로 자동 집계합니다.
 
-### 캡스톤 프로젝트 | [Capstone Pose](https://github.com/gidaseul/capstone_pose)
-`YOLO + MediaPipe + LSTM` 기반 실시간 낙상 감지 파이프라인
+## Experience
 
-<p align="center">
-  <a href="https://github.com/gidaseul/capstone_pose">
-    <img src="https://github.com/user-attachments/assets/e9b5b0ab-ff87-478e-a8c1-96cbd2d7cbf1" width="520" alt="Capstone Pose Preview" />
-  </a>
-</p>
+- **텐핑거스(데이트팝), AI 개발 인턴** — 잠재 매장 수집·평가 AI 파이프라인 구축
+- **VML Lab, 학부연구생** — Computer Vision 기반 의료 AI 연구와 실험
+- **Curiator Studio, 팀장·AI 파트** — 다국어 LLM·TTS 도슨트 파이프라인
+- **Syncorbis, Bio & Software Engineer** — 생명과학 실험 자동화 장치·소프트웨어 기획
 
-1차 탐지와 2차 시계열 분류를 결합해 실시간 낙상 상황을 판별하는 캡스톤 프로젝트입니다.
+## Education & Recognition
 
----
+- 숭실대학교 AI소프트웨어학부 — 인공지능전공 · 빅데이터 융합전공
+- LG Aimers 7기 Data Intelligence
+- SSAFY 15기
+- SQLD
+- 2019 대한민국 인재상
+- 2024 Soongsil Programming Contest 은상
 
-### 소프트웨어 공모전 | [Babbogi](https://github.com/gidaseul/babbogi)
-섭취 기록 기반 영양소 관리 서비스
+## Engineering Principles
 
-<p align="center">
-  <a href="https://github.com/gidaseul/babbogi">
-    <img src="https://github.com/user-attachments/assets/7ca475d8-b913-431b-b025-9d86def286ad" width="300" alt="Babbogi Preview" />
-  </a>
-</p>
+1. 팀 결과와 개인 기여를 분리해 기록합니다.
+2. 재현 방법이나 근거가 없는 수치는 성과로 사용하지 않습니다.
+3. 성공한 실험뿐 아니라 실패 원인과 한계도 공개합니다.
+4. 민감한 원천 데이터·회사 코드·환자 정보는 공개하지 않습니다.
 
-생활 데이터 기반으로 식습관과 영양소 섭취를 관리하는 서비스 프로젝트입니다.
+## Contact
 
-## 👯 Communities
-<table>
-  <thead>
-    <tr>
-      <th>네이버 커넥트재단</th>
-      <th>Fast campus</th>
-      <th>LG Aimers</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-          <img src="https://github.com/user-attachments/assets/0547901c-ed69-4d81-a020-4dd6072572f9" alt="부스트코스 DATA SCIENCE PROJECTS 로고">
-          <br>
-          <br>
-            <a href="https://www.boostcourse.org" target="_blank" rel="noopener noreferrer">부스트코스 <DATA SCIENCE PROJECTS> 코칭스터디 - (모두의 연구소 x boostcourrse) 수료</a>
-      </td>
-      <td>
-          <img src="https://github.com/user-attachments/assets/6274866d-57de-4e6e-98c5-63d715be8edc" alt="개발자를 위한 MLOps : 추천 시스템 구축부터 최적화까지">
-          <br>
-          <br>
-            <a href="https://fastcampus.co.kr/" target="_blank" rel="noopener noreferrer">개발자를 위한 MLOps : 추천 시스템 구축부터 최적화까지</a>
-      </td>
-      <td>
-          <img src="https://github.com/user-attachments/assets/e8e54742-c576-4ed1-abfc-d4fd64200ca7" alt="LG Aimers 로고">
-          <br>
-          <br>        
-            <a href="https://lgaimers.ai/" target="_blank" rel="noopener noreferrer">LG Aimers 7기 수료</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-## 🏆 Awards
-
-<table>
-  <thead>
-    <tr>
-      <th colspan="2">대회명</th>
-      <th>수상 내역</th>
-      <th>기간</th>
-      <th>자료(링크)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2">2019 대한민국 인재상</td>
-      <td>부총리 겸 교육부장관상)</td>
-      <td>2019</td>
-      <td>
-        <a href = "https://www.newsjn.kr/news/articleView.html?idxno=123" rel="noopener noreferrer"> [기사1]
-        <a href = "https://www.jnedu.kr/news/articleView.html?idxno=20845" rel="noopener noreferrer"> [기사2]
-        <a href ="https://www.dmorning.kr/news/articleView.html?idxno=41872"rel="noopener noreferrer"> [기사3]
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">제2회 전라남도 으뜸인재 발탁</td>
-      <td>전남인재평생교육진흥원</td>
-      <td>2021~2025(4학년 재능계발비 지원)</td>
-      <td>
-          <a href = "https://www.jntle.kr/main/uBusiness9"rel="noopener noreferrer">[자료]
-      </td>
-    </tr>
-      <tr>
-      <td colspan="2">2024학년도 소프트웨어공모전(비교과) 수상</td>
-      <td>은상</td>
-      <td>2024.04 - 2024.08</td>
-      <td>
-          <a href = "https://private-user-images.githubusercontent.com/61573303/486014413-55779d0c-4385-4317-ae51-5ab01dca7e2f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwNjA2NjIsIm5iZiI6MTc1NzA2MDM2MiwicGF0aCI6Ii82MTU3MzMwMy80ODYwMTQ0MTMtNTU3NzlkMGMtNDM4NS00MzE3LWFlNTEtNWFiMDFkY2E3ZTJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA1VDA4MTkyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI4YzkxNTVmODljZDk3NDk4MGI4MjI5OTU4OWRlZmVkMzU2ODIwYzg1NzU2ODM2NTVhZjIyYTZhOTkwYTdiYWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.m0CZ2yn55NZ5mI-US2cEhsdXrqBxcWxW53hD8k2NCLI" rel="noopener noreferrer">[자료]
-      </td>
-    </tr>
-      <tr>
-      <td colspan="2">숭실대학교 프로그래밍대회 (2024 SCON)</td>
-      <td>은상</td>
-      <td>2024.06.19</td>
-      <td>
-          <a href = "https://private-user-images.githubusercontent.com/61573303/486014881-1d80c517-28c4-412e-a4f6-dccbe26c3517.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTcwNjA3MzUsIm5iZiI6MTc1NzA2MDQzNSwicGF0aCI6Ii82MTU3MzMwMy80ODYwMTQ4ODEtMWQ4MGM1MTctMjhjNC00MTJlLWE0ZjYtZGNjYmUyNmMzNTE3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA1VDA4MjAzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTllNDQzNWVlZjdmYjRiZDNjODk5NTYyYzQyMDUyYTgyZDAzNDRmN2E2ZTYzOTU4M2RhYzY4ZDk4NzI0MmUwMzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.YybyzXwtptT5LyzKJrqUMO7bS9bHIycvki1vR47VKlk" rel="noopener noreferrer">[자료]
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-## 💼 Experience & Affiliation
-<table>
-  <thead>
-    <tr>
-      <th>소속</th>
-      <th>활동 내역</th>
-      <th>기간</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>대학교: 숭실대학교</td>
-      <td>소프트웨어학과 - 빅데이터융합 전공</td>
-      <td>2020.03 ~ 2025.02</td>
-    </tr>
-    <tr>
-      <td>ICT 인턴 : (주)텐핑거스</td>
-      <td>매의 눈 프로젝트 - 전국 놀거리 및 먹거리 매장 AI 기반 발굴 및 인기도 예측 </td>
-      <td>2025.03 ~ 2025.06</td>
-    </tr>
-     <tr>
-      <td><a href = "https://sites.google.com/view/vmllab/members">학부연구생 : VML(Vison & Machine Learnning Lab)</td>
-      <td>Artificial Intelligence/AI Security/Computer Vision/AI in Medical Healthcare </td>
-      <td>2024.06 ~ 2025.02</td>
-    </tr>
-     <tr>
-      <td>창업 : Syncorbis </td>
-      <td> Bio & SW Engineer - <a href = "https://doi.org/10.8080/1020210123255"> 생명 자동화 실험기기 설계 및 기획 </td>
-      <td>2021.03 ~ 2022.03</td>
-    </tr>
-     <tr>
-      <td>Pre-스타트업팀 육성 프로그램(비기닝 창업동아리)</td>
-      <td>숭실대학교-창업 프로그램 이수</td>
-      <td>2021.05 ~ 2022.01</td>
-    </tr>
-  </tbody>
-</table>
-
-## ⚡ Technologies
-Talk to me about:
-- Front-end development using **HTML, Javascript, CSS, Bootstrap**.
-- Solving Data structure and algorithm questions in **Python**.
-- Working with data using **Pandas, Numpy, and Scikit-learn**.
-- Visualizing data using **Matplotlib and Seaborn**.
-- Building and deploying machine learning models with **TensorFlow and PyTorch**.
-- Containerizing applications with **Docker**.
-
-## 🔗 Quick Links
-- Blog: [Velog](https://velog.io/@feelgi/posts) · [Tistory](https://feelgi.tistory.com/)
-- Portfolio: [Notion Portfolio](https://fragrant-cloudberry-f69.notion.site/1868017e41ad801fb28bff08bd094789)
-- Research: [Brain MRI Research](https://github.com/gidaseul/brain-mri-research) · [Machine Learning Project](https://github.com/gidaseul/machine-learning-project) · [Capstone Pose](https://github.com/gidaseul/capstone_pose)
-- Problem Solving: [Algorithm-Solutions](https://github.com/gidaseul/Algorithm-Solutions) · [solved.ac](https://solved.ac/hye0328) · [LeetCode Folder](https://github.com/gidaseul/Algorithm-Solutions/tree/main/Leetcode)
-
-
-<!-- ![gidaseul's github stats](https://github-readme-stats.vercel.app/api?username=gidaseul&hide=["issues"]&show_icons=true)-->
-
----
-
-<h3 align="left">Languages and Tools I have used:</h3>
-  <p align="left" style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
-    <img height="28" loading="lazy" alt="aws"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg">
-    <img height="28" loading="lazy" alt="bootstrap"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/bootstrap/bootstrap-plain-wordmark.svg">
-    <img height="28" loading="lazy" alt="c"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/c/c-original.svg">
-    <img height="28" loading="lazy" alt="cplusplus"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/cplusplus/cplusplus-original.svg">
-    <img height="28" loading="lazy" alt="css3"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/css3/css3-original-wordmark.svg">
-    <img height="28" loading="lazy" alt="docker"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/docker/docker-original-wordmark.svg">
-    <img height="28" loading="lazy" alt="html5"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/html5/html5-original-wordmark.svg">
-    <img height="28" loading="lazy" alt="java"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/java/java-original.svg">
-    <img height="28" loading="lazy" alt="mysql"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/mysql/mysql-original-wordmark.svg">
-    <img height="28" loading="lazy" alt="oracle"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/oracle/oracle-original.svg">
-    <img height="28" loading="lazy" alt="pandas"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/pandas/pandas-original.svg">
-    <img height="28" loading="lazy" alt="python"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/python/python-original.svg">
-    <img height="28" loading="lazy" alt="pytorch"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/pytorch/pytorch-original.svg">
-    <img height="28" loading="lazy" alt="scikit-learn"
-         src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png">
-    <img height="28" loading="lazy" alt="seaborn"
-         src="https://avatars.githubusercontent.com/u/22799945?s=280&v=4">
-    <img height="28" loading="lazy" alt="spring"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/spring/spring-original.svg">
-    <img height="28" loading="lazy" alt="tensorflow"
-         src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/tensorflow/tensorflow-original.svg">
-  </p>
-
-
-
----
+- GitHub: [@gidaseul](https://github.com/gidaseul)
+- Email: [rlektmf0328@gmail.com](mailto:rlektmf0328@gmail.com)
