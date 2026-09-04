@@ -18,11 +18,12 @@
 
 ### 🍎 [AppleCare+ 사과원 병해 진단](https://applecare-orchard.vercel.app/)
 
-![CV](https://img.shields.io/badge/CV-e8722c?style=flat-square) ![VLM](https://img.shields.io/badge/VLM-e8722c?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-e8722c?style=flat-square) ![LIVE](https://img.shields.io/badge/●%20LIVE-1a9c4c?style=flat-square)
+![CV](https://img.shields.io/badge/CV-e8722c?style=flat-square) ![VLM](https://img.shields.io/badge/VLM-e8722c?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-e8722c?style=flat-square) ![LIVE](https://img.shields.io/badge/●%20LIVE-1a9c4c?style=flat-square) ![팀프로젝트](https://img.shields.io/badge/POSCO%20AI%20아카데미%20·%205인%20팀-e8722c?style=flat-square)
 
-**Problem** — 드론 촬영 이미지를 사람이 일일이 보고 병해를 판단해야 했다.
-**Solution** — 분류 → DINO → Grad-CAM → VLM → RAG로 이어 구역·나무·잎 단위 병해 리포트를 자동 생성.
-**Result** — 화면과 모델을 JSON 계약으로 분리해, 실제 추론 서버를 붙일 때 화면 코드는 건드리지 않도록 설계.
+**Problem** — 사과 잎 병해 진단은 분류 결과만으로는 사용자가 원인과 조치 방향을 이해하기 어렵다.
+**Solution** — 분류(EfficientNet-B0) → DINO 유사 이미지 검증 → Grad-CAM → VLM 시각 속성 판정 → RAG·LLM 리포트로 이어지는 5단계 구조를 팀에서 설계.
+**Result** — 발표 기준 분류 Complex F1 0.758, DINO 검증 통과 정답률 98.7%, VLM few-shot 적용 후 정확도 65%→75%(+10%p), 사용자 설문에서 고난도 병해 문항 정답률 최대 +55.8%p 개선.
+**Role** — 5인 팀 프로젝트로 데이터셋·모델 비교, XAI 검증, 발표 설계에 참여. 위 수치는 팀 발표 결과이며, 개인 단독 모델 성과가 아님.
 
 [**▶ 라이브 데모**](https://applecare-orchard.vercel.app/) · [GitHub](https://github.com/gidaseul/applecare-orchard) *(현재 비공개 저장소)*
 
@@ -37,8 +38,8 @@
 </a>
 
 **Problem** — RGB 카메라만으로 낙상을 감지해야 하는 캡스톤 과제 (웨어러블 없음).
-**Solution** — YOLO로 사람 검출 → MediaPipe 관절 추출 → LSTM 시계열 분류의 2단계 구조.
-**Result** — 오래된 프레임이 쌓이지 않게 프로세스 큐를 1개로 제한해 최신 프레임을 우선 처리.
+**Solution** — YOLO로 사람 검출 → MediaPipe 관절 추출 → LSTM 시계열 분류의 2단계 구조. 자세 규칙 연속 5회 만족 시에만 LSTM 평가로 전달해 단발성 오탐을 필터링.
+**Result** — 오래된 프레임이 쌓이지 않게 프로세스 큐를 1개로 제한해 최신 프레임을 우선 처리. 직접 구축한 280개 영상 데이터셋으로 검증.
 
 [GitHub](https://github.com/gidaseul/capstone_pose)
 
@@ -49,8 +50,9 @@
 ![Applied AI](https://img.shields.io/badge/Applied%20AI-9c6b30?style=flat-square) ![인턴](https://img.shields.io/badge/텐핑거스%20AI%20인턴-9c6b30?style=flat-square) ![단독개발](https://img.shields.io/badge/단독%20개발-9c6b30?style=flat-square)
 
 **Problem** — 영업팀이 수작업으로 하던 신규 매장 발굴을 자동화해야 했다.
-**Solution** — 데이터 수집 → ML/LLM 분류 → QC Score → API 파이프라인으로 전환.
-**Limitation** — 유사도만으로는 신규 후보를 못 찾는 한계를 확인 → 인기도 예측·제휴 가능성·LLM 카테고리 분류를 분리.
+**Solution** — 데이터 수집(Selenium 크롤러) → XGBoost 인기도 예측 → SBERT 유사도 → ML+LLM(Gemini) 카테고리 매칭 → QC Score → API로 이어지는 파이프라인. 기획부터 배포까지 개발 전 과정 단독 수행.
+**Result** — 제휴점 기준 내부 매칭 검수에서 카테고리 매칭률을 약 15%(ML 단독) → 약 80%(ML+LLM)로 개선. **ICT 학점연계 프로젝트 인턴십 우수성과 개인 부문 장려상** 수상.
+**Limitation** — 유사도만으로는 신규 후보를 못 찾는 한계를 확인 → 인기도 예측·제휴 가능성·LLM 카테고리 분류를 분리. 위 수치는 고정 테스트셋 accuracy가 아닌 내부 검수 결과.
 
 > 회사 코드·데이터는 비공개 → [Case Study](case-studies/eagle-eye.md)로 설계·역할만 정리
 
@@ -73,8 +75,10 @@
 <summary>다른 프로젝트 더 보기</summary>
 <br>
 
+- **후판 Scale 불량 예측** *(POSCO 청년 AI·Big Data 아카데미, 5인 팀장)* — 완전분리 문제를 일으킨 HSB 변수를 공정 규칙으로 재해석하고 파생변수를 설계. 팀 최종 XGBoost 후보 Precision 100% · Recall 95.88% · ROC-AUC 0.9883 (불량 97건 중 93건 검출, 팀 결과).
+- **신용카드 사기 탐지** *(데이터사이언스 수업, 4인 팀장)* — 사기 비율 0.14%의 극단적 불균형 데이터에 샘플링 6종 × 모델 12종 = 144개 조합을 자동 비교하고, Accuracy 대신 미탐·오탐 비용함수로 최종 모델(ADASYN-BRF)을 선정.
 - **[Brain MRI Research](https://github.com/gidaseul/brain-mri-research)** — VML 학부연구생. 3D MRI 볼륨을 `ResNet3D-18`로 학습하고 CAM으로 주목 영역을 시각화 (팀 baseline과 개인 기여 분리 표기).
-- **[밥보기](https://github.com/gidaseul/babbogi)** — 섭취 기반 영양소 관리 앱. 4인 팀에서 **백엔드/서버 연동** 담당 (2024 소프트웨어공모전 은상).
+- **[밥보기](https://github.com/gidaseul/babbogi)** — 섭취 기반 영양소 관리 앱. 5인 팀에서 **백엔드** 담당, `SavedFood` 검색·상세조회 기능을 커밋 단위로 구현 (2024 소프트웨어공모전 은상).
 - **[Docent AI](https://github.com/gidaseul/tts)** — 관람객 수준별 RAG·LLM·TTS 도슨트 프로토타입.
 
 </details>
@@ -87,6 +91,7 @@
 | --- | --- | --- |
 | 2019 대한민국 인재상 | 부총리 겸 교육부장관상 · [기사](https://www.dmorning.kr/news/articleView.html?idxno=41872) | 2019 |
 | 제2회 전라남도 으뜸인재 발탁 | [전남인재평생교육진흥원](https://www.jntle.kr/main/uBusiness9) (4학년 재능계발비 지원) | 2021~2025 |
+| ICT 학점연계 프로젝트 인턴십 (매의 눈) | 우수성과 개인 부문 장려상 | 2025 |
 | 2024 소프트웨어공모전 (밥보기) | 은상 | 2024 |
 | 숭실대 프로그래밍대회 (2024 SCON) | 은상 | 2024 |
 
@@ -95,6 +100,7 @@
 | 소속 | 활동 | 기간 |
 | --- | --- | --- |
 | **(주)텐핑거스** ICT 인턴 | 매의 눈 — 매장 AI 발굴·인기도 예측 파이프라인 (단독 개발) | 2025.03~06 |
+| **POSCO 청년 AI·Big Data 아카데미** (33기) | 5인 팀장 · 후판 품질 예측·AppleCare+ 병해진단 프로젝트 | 2026 |
 | **[VML Lab](https://sites.google.com/view/vmllab/members)** 학부연구생 | Computer Vision · Medical AI 연구 | 2024.06~2025.02 |
 | **Syncorbis** Bio & SW Engineer | [생명 자동화 실험기기 설계·기획](https://doi.org/10.8080/1020210123255) | 2021.03~2022.03 |
 | 숭실대학교 | 소프트웨어학과 · 빅데이터융합 전공 | 2020.03~2025.02 |
