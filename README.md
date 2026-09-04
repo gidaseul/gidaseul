@@ -85,34 +85,49 @@
 
 ---
 
-## 🕓 Timeline — Experience & Awards
+## Career Path
 
-> `💼 경험` → `🧪 프로젝트` → `🏆 수상` 순서로, 활동과 그 결과를 같은 흐름에서 정리했습니다.
+> **Computer Vision · ML 기반을 쌓고, 현업 자동화 문제를 해결한 뒤, AI 제품과 연구로 확장하고 있습니다.**
 
-<table>
-<tr><td width="90"><b>2019</b></td><td>🏆 <b>대한민국 인재상</b> — 부총리 겸 교육부장관상 · <a href="https://www.dmorning.kr/news/articleView.html?idxno=41872">기사</a></td></tr>
-<tr><td><b>2020–25</b></td><td>🎓 <b>숭실대학교</b> 소프트웨어학과 · 인공지능·빅데이터융합 전공</td></tr>
-<tr><td rowspan="3"><b>2021–22</b></td><td>💼 <b>Syncorbis</b> Bio & SW Engineer — <a href="https://doi.org/10.8080/1020210123255">생명과학 실험 자동화 장치 설계·특허</a></td></tr>
-<tr><td>🏆 <b>전라남도 으뜸인재</b> 발탁 — 4학년 재능계발비 지원 (2021–25)</td></tr>
-<tr><td>🏅 <b>SQLD</b> 취득 (2022)</td></tr>
-<tr><td rowspan="5"><b>2024</b></td><td>💼 <a href="https://sites.google.com/view/vmllab/members"><b>VML Lab</b></a> 학부연구생 시작 — Computer Vision · Medical AI 연구</td></tr>
-<tr><td>🧪 <b>밥보기</b> — 맞춤형 영양 관리 서비스, 5인 팀 백엔드 담당</td></tr>
-<tr><td>🏆 <b>2024 소프트웨어공모전 은상</b> — 밥보기</td></tr>
-<tr><td>🏆 <b>숭실대 프로그래밍대회(2024 SCON) 은상</b></td></tr>
-<tr><td>🧪 실시간 낙상 감지 · 신용카드 사기 탐지 · 이미지 분류·표현학습 분석 프로젝트</td></tr>
-<tr><td rowspan="6"><b>2025</b></td><td>💼 <b>(주)텐핑거스 ICT 인턴</b> — 매의 눈, 매장 AI 발굴·인기도 예측 파이프라인 단독 개발</td></tr>
-<tr><td>🏆 <b>ICT 학점연계 프로젝트 인턴십 우수성과 개인 부문 장려상</b> — 매의 눈</td></tr>
-<tr><td>💼 VML Lab 학부연구생 활동 종료 (2024.06–2025.02)</td></tr>
-<tr><td>🧪 <b>LG Aimers 7기</b> — 수요 예측 프로젝트</td></tr>
-<tr><td>👥 <b>GDG Soongsil 5기</b> Member (AI/ML)</td></tr>
-<tr><td>🧪 숭실대 캡스톤 — Curiator AI 도슨트</td></tr>
-<tr><td rowspan="6"><b>2026</b></td><td>🎓 <b>SSAFY 15기</b> 합격</td></tr>
-<tr><td>💼 <b>POSCO 청년 AI·BigData 아카데미 33기</b> — 5인 팀장, 후판 품질 예측·AppleCare+ 병해 진단 프로젝트 (2026.05–07)</td></tr>
-<tr><td>🏆 <b>우수상</b> — 청년 AI·BigData 아카데미 33기 개인 성적 우수</td></tr>
-<tr><td>🏆 <b>협력상</b> — 청년 AI·BigData 아카데미 33기</td></tr>
-<tr><td>🏆 <b>프로젝트 최우수상</b> — 청년 AI·BigData 아카데미 33기 B분반 3조 팀 수상</td></tr>
-<tr><td>💼 <b>PIAI 인공지능 연구원 인턴</b> — 현재 근무 중</td></tr>
-</table>
+### 2024　FOUNDATION · Computer Vision & ML
+
+<a href="https://ssu.ac.kr/"><img src="https://ssu.ac.kr/wp-content/themes/SSUMainSiteV2/assets/images/renewal/logo_renewal.png" height="26" alt="숭실대학교"></a>
+
+**숭실대학교에서 Computer Vision·ML 기반을 만들었습니다.**<br>
+→ **VML Lab 학부연구생**으로 Medical AI·Computer Vision 연구를 시작하고, 실시간 낙상 감지 · 신용카드 사기 탐지 · 이미지 분류·표현학습 분석 프로젝트를 수행했습니다.<br>
+→ **밥보기** 5인 팀의 백엔드를 담당해 **2024 소프트웨어공모전 은상**, **숭실대 프로그래밍대회(SCON) 은상**을 수상했습니다.
+
+### 2025　FIELD IMPACT · Applied AI Automation
+
+**(주)텐핑거스 ICT 인턴**으로 신규 매장 발굴 업무를 단독 자동화했습니다.<br>
+→ Selenium · XGBoost · SBERT · **LLM**을 연결한 AI 파이프라인으로, 내부 제휴점 카테고리 매칭률을 **약 15% → 80%**로 개선했습니다.<br>
+→ **ICT 학점연계 프로젝트 인턴십 우수성과 개인 부문 장려상**을 받았습니다.
+
+### 2026　PRODUCT → RESEARCH · AI Product & Research
+
+<a href="https://www.poscohrd.com/"><img src="https://www.poscohrd.com/resources/images/common/site-logo.png" height="24" alt="POSCO 인재창조원"></a>&nbsp;&nbsp;<a href="https://piai.postech.ac.kr/"><img src="https://piai.postech.ac.kr/webroot/images/korean/layout/logo-v3.png" height="24" alt="PIAI"></a>&nbsp;&nbsp;<a href="https://www.postech.ac.kr/eng/"><img src="https://www.postech.ac.kr/_res/postech/eng/img/common/logo_header.png" height="24" alt="POSTECH"></a>
+
+**POSCO 청년 AI·BigData 아카데미 33기 팀장**으로 제조 품질 예측과 AppleCare+ 병해 진단 프로젝트를 수행했습니다.<br>
+→ 개인 **우수상**, **협력상**, B분반 3조 **프로젝트 최우수상** 수상.<br>
+→ 현재 **PIAI 인공지능 연구원 인턴**으로 AI 연구·개발 실무를 이어가고 있습니다.
+
+<details>
+<summary><b>Background & other milestones</b></summary>
+<br>
+
+**AWARDS**
+- **2019** · 대한민국 인재상 — 부총리 겸 교육부장관상 · [기사](https://www.dmorning.kr/news/articleView.html?idxno=41872)
+- **2021–25** · 전라남도 으뜸인재 발탁 — 4학년 재능계발비 지원
+
+**EDUCATION & CERTIFICATION**
+- **2020–25** · 숭실대학교 소프트웨어학과 · 인공지능·빅데이터융합 전공
+- **2022** · SQLD 취득
+- **2026** · SSAFY 15기 합격 (서울)
+
+**EARLIER EXPERIENCE & ACTIVITIES**
+- **2021–22** · Syncorbis Bio & SW Engineer — [생명과학 실험 자동화 장치 설계·특허](https://doi.org/10.8080/1020210123255)
+- **2025** · LG Aimers 7기 수요 예측 · GDG Soongsil 5기 Member · Curiator AI 도슨트
+</details>
 
 ## 👯 Communities
 
