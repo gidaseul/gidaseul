@@ -1,3 +1,9 @@
+<a href="https://svs.gsfc.nasa.gov/30561/">
+  <img src="https://svs.gsfc.nasa.gov/vis/a030000/a030500/a030561/m31_phat_mosaic_crop-hst-5760x1842_print.jpg" width="100%" alt="허블 우주망원경으로 촬영한 안드로메다 은하의 별과 먼지 띠 파노라마">
+</a>
+
+[사진 출처](https://svs.gsfc.nasa.gov/30561/) · NASA, ESA, J. Dalcanton (University of Washington), the PHAT team, and R. Gendler
+
 # 기다슬 · Applied AI Engineer
 
 **[POSTECH 인공지능연구원(PIAI)](https://piai.postech.ac.kr/english) 연구원**
