@@ -97,11 +97,11 @@ flowchart TB
 
 | 분야와 도구 | 적용한 곳 |
 | --- | --- |
-| **영상·시계열**<br>Python · OpenCV · YOLO · MediaPipe · TensorFlow/Keras | [실시간 낙상 감지](https://github.com/gidaseul/capstone_pose)에서 사람 검출과 자세 추정을 분리하고, 관절 시퀀스를 LSTM에 전달했습니다. |
-| **모델 학습·분석**<br>PyTorch · scikit-learn · t-SNE | [이미지 분류와 표현학습](https://github.com/gidaseul/machine-learning-project)에서 Autoencoder와 대조학습을 실험하고, t-SNE로 두 데이터셋의 잠재 표현을 비교했습니다. |
-| **ML·LLM 응용**<br>XGBoost · SHAP · Gemini | [매의 눈](case-studies/eagle-eye.md)에서 제휴 점수의 특성별 기여도를 설명하고, 메뉴와 리뷰를 바탕으로 업종을 분류했습니다. |
-| **API·데이터 처리**<br>FastAPI · Docker · AWS S3 · Java/Spring Boot | [매의 눈](case-studies/eagle-eye.md)에서 수집기를 패키징하고 수집 결과를 저장해 API로 제공했습니다. [밥보기](case-studies/babbogi.md)에서는 음식 검색·상세 조회를 구현했습니다. |
-| **결과 시각화**<br>Next.js · React | [사과 잎 병해 진단](https://applecare-orchard.vercel.app/)에서 팀 모델의 분류 결과, Grad-CAM, 진단 리포트를 보여주는 대시보드를 구현·배포했습니다. |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/python/python-original.svg" width="20" height="20" alt="Python"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/opencv/opencv-original.svg" width="20" height="20" alt="OpenCV"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/tensorflow/tensorflow-original.svg" width="20" height="20" alt="TensorFlow"><br>**영상·시계열**<br>Python · OpenCV · YOLO · MediaPipe · TensorFlow/Keras | [실시간 낙상 감지](https://github.com/gidaseul/capstone_pose)에서 사람 검출과 자세 추정을 분리하고, 관절 시퀀스를 LSTM에 전달했습니다. |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/pytorch/pytorch-original.svg" width="20" height="20" alt="PyTorch"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/scikitlearn/scikitlearn-original.svg" width="20" height="20" alt="scikit-learn"><br>**모델 학습·분석**<br>PyTorch · scikit-learn · t-SNE | [이미지 분류와 표현학습](https://github.com/gidaseul/machine-learning-project)에서 Autoencoder와 대조학습을 실험하고, t-SNE로 두 데이터셋의 잠재 표현을 비교했습니다. |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg" width="20" height="20" alt="Gemini"><br>**ML·LLM 응용**<br>XGBoost · SHAP · Gemini | [매의 눈](case-studies/eagle-eye.md)에서 제휴 점수의 특성별 기여도를 설명하고, 메뉴와 리뷰를 바탕으로 업종을 분류했습니다. |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/fastapi/fastapi-original.svg" width="20" height="20" alt="FastAPI"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/docker/docker-original.svg" width="20" height="20" alt="Docker"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/spring/spring-original.svg" width="20" height="20" alt="Spring Boot"><br>**API·데이터 처리**<br>FastAPI · Docker · AWS S3 · Java/Spring Boot | [매의 눈](case-studies/eagle-eye.md)에서 수집기를 패키징하고 수집 결과를 저장해 API로 제공했습니다. [밥보기](case-studies/babbogi.md)에서는 음식 검색·상세 조회를 구현했습니다. |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/nextjs/nextjs-original.svg" width="20" height="20" alt="Next.js"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/react/react-original.svg" width="20" height="20" alt="React"><br>**결과 시각화**<br>Next.js · React | [사과 잎 병해 진단](https://applecare-orchard.vercel.app/)에서 팀 모델의 분류 결과, Grad-CAM, 진단 리포트를 보여주는 대시보드를 구현·배포했습니다. |
 
 ## Career Path
 
