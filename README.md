@@ -14,12 +14,17 @@
 - 메뉴와 리뷰를 바탕으로 LLM이 업종을 해석하도록 개선했습니다. ICT 학점연계 프로젝트 인턴십 우수성과전에서 개인 장려상을 받았습니다.
 
 ```mermaid
-flowchart LR
-    A["매장 데이터 수집"] --> B["XGBoost 제휴 가능성 예측"]
-    A --> C["LLM 업종 분류"]
-    B --> D["결과 API"]
-    C --> D
+flowchart TB
+    A["네이버 매장 수집 · 카카오 평점 병합"] --> B["매장 레코드 정리 · 수집 실패 상태 보존"]
+    B -->|"정형 특성"| C["XGBoost 제휴 점수<br/>SHAP으로 특성 기여도 설명"]
+    B -->|"메뉴·리뷰"| D["Gemini 업종 분류"]
+    D --> E["허용 라벨 검증<br/>파싱 실패 시 대체 처리"]
+    C --> F["결과 정리 · QC 점수 · 저장"]
+    E --> F
+    F --> G["FastAPI로 결과 조회"]
 ```
+
+**설계 판단** · 제휴 가능성 점수와 업종 라벨을 따로 산출했습니다. 정형 특성의 점수 기여도는 SHAP으로 확인하고, LLM 출력은 허용된 업종 라벨로 제한했습니다. 그림은 공개 사례의 구성 요소를 개략화했습니다.
 
 [개발 사례 읽기](case-studies/eagle-eye.md)
 
@@ -28,23 +33,54 @@ flowchart LR
 - 5인 팀에서 병해 진단 결과와 모델의 판단 근거를 보여주는 대시보드를 구현하고 배포했습니다.
 - 청년 AI·BigData 아카데미 팀 프로젝트 최우수상을 받았습니다. 팀은 34명을 대상으로 리포트 평가 설문을 진행했습니다.
 
+```mermaid
+flowchart TB
+    A["사과 잎 이미지"] --> B["EfficientNet-B0 · 멀티라벨 분류"]
+    B --> C["DINOv2 · 유사 사례 검색"]
+    C --> D{"단일 병해이며<br/>분류와 유사 사례가 일치하는가?"}
+    D -->|"강한 일치"| F["RAG·LLM · 병해 지식 기반 리포트"]
+    D -->|"근거 불일치 또는 복합 병해"| E["VLM · 병반의 색·형태 추가 관찰"]
+    E --> F
+    B --> H["Grad-CAM · 모델 주목 영역을 잎 마스크와 비교"]
+    H --> G["결과 대시보드<br/>근거와 리포트 표시"]
+    F --> G
+    style G stroke-width:3px
+```
+
+**팀 설계와 개인 기여** · 팀 파이프라인은 복합 병해나 근거가 엇갈리는 경우에 VLM으로 추가 관찰합니다. 제가 구현·배포한 부분은 굵은 테두리의 결과 대시보드입니다.
+
+<details>
+<summary>공개 데모의 Grad-CAM 예시 보기</summary>
+
 <p>
   <img src="https://applecare-orchard.vercel.app/images/survey/88ddbc939596a5a4.jpg" height="180" alt="병해 진단에 사용한 사과 잎 원본 사진">
   <img src="https://applecare-orchard.vercel.app/images/survey/cam/88ddbc939596a5a4.png" height="180" alt="같은 사과 잎에서 모델이 주목한 영역을 표시한 Grad-CAM 히트맵">
 </p>
 
-공개 데모의 사과 잎 원본과 같은 샘플의 Grad-CAM입니다. 히트맵은 모델이 분류할 때 주목한 영역을 보여줍니다.
+왼쪽은 사과 잎 원본입니다. 오른쪽은 같은 샘플에서 분류 모델이 주목한 영역입니다.
+
+</details>
 
 [라이브 데모](https://applecare-orchard.vercel.app/)
 
 ### 실시간 낙상 감지
 
 - RGB 영상에서 YOLO로 사람을 찾고, MediaPipe로 자세를 추정한 뒤 LSTM으로 낙상 여부를 판정했습니다.
-- 처리 큐에 최신 프레임 하나만 남기도록 구성했고, 공개 저장소의 주요 코드를 작성했습니다.
+- 카메라 처리와 LSTM 추론을 별도 프로세스로 나누고, 두 프로세스 사이에 대기 항목 하나를 담는 큐를 뒀습니다.
 
-![실시간 낙상 감지 모델에서 서버와 영상 저장, 문자 알림으로 이어지는 시스템 구성도](https://github.com/user-attachments/assets/e9b5b0ab-ff87-478e-a8c1-96cbd2d7cbf1)
+```mermaid
+flowchart TB
+    A["카메라 · YOLO11n 사람 검출"] --> B["사람 영역 · MediaPipe 관절 33개 × 3좌표"]
+    B --> C{"자세 규칙 3개 중 2개 이상 충족<br/>의심 판정이 5회 누적됐나?"}
+    C -->|"예"| D["프레임·관절 버퍼 스냅샷<br/>프로세스 간 큐 최대 1건"]
+    C -->|"아니오"| A
+    D --> E["LSTM · 관절 시퀀스 150 × 99"]
+    E -->|"점수 0.7 초과"| F["로컬 MP4 저장 · LSTM 워커 30초 대기"]
+```
 
-[코드와 데모](https://github.com/gidaseul/capstone_pose)
+**설계 판단** · 엉덩이·발·코의 상대 위치로 의심 구간을 먼저 골라냅니다. 큐가 가득 차면 기존 대기 항목의 교체를 시도합니다. LSTM 워커는 관절 좌표 150개 시점이 갖춰졌을 때 추론합니다.
+
+[카메라와 자세 규칙](https://github.com/gidaseul/capstone_pose/blob/49a0ad8620eb1c05e7e772ec47ac1bfca14539e9/process/CameraProcess.py#L31-L126) · [프로세스 간 큐](https://github.com/gidaseul/capstone_pose/blob/49a0ad8620eb1c05e7e772ec47ac1bfca14539e9/PipedProcess.py#L12-L45) · [LSTM과 영상 저장](https://github.com/gidaseul/capstone_pose/blob/49a0ad8620eb1c05e7e772ec47ac1bfca14539e9/process/LSTMProcess.py#L19-L69)
 
 <details>
 <summary>다른 프로젝트 보기</summary>
