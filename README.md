@@ -98,26 +98,32 @@
 ## Career Path
 
 - **현재** · [POSTECH 인공지능연구원(PIAI)](https://piai.postech.ac.kr/english) 연구원
-- **2026** · 청년 AI·BigData 아카데미 33기 수료. 제조 품질 예측과 병해 진단 프로젝트에 참여했고, 개인 우수상과 협력상을 받았습니다.
-- **2025** · 텐핑거스 ICT 학점연계 프로젝트 인턴. 신규 제휴 매장 발굴 시스템 개발을 담당했습니다.
-- **2024–2025** · 숭실대 Vision & Machine Learning Lab 학부연구생. PointNet++ 치아 3D 분할을 재현하고 CT 골밀도 데이터를 전처리했습니다.
+- **2026** · POSTECH 인공지능연구원 연구인턴 (8–9월). 산업 현장 낙상 감지 파이프라인의 단계별 오류를 분석하고, 소형 VLM 기반 판정으로 바꾸는 실험을 했습니다.
+- **2026** · 청년 AI·BigData 아카데미 33기 수료 (5–7월). 병해 진단 XAI 플랫폼과 후판 품질 예측 팀 프로젝트에 참여했습니다. 팀으로 프로젝트 최우수상을 받았고, 개인으로 우수상과 협력상을 받았습니다.
+- **2025** · 텐핑거스 ICT 학점연계 프로젝트 인턴 (3–6월). 신규 제휴 매장 발굴 시스템을 개발했고, 우수성과전에서 개인 장려상을 받았습니다.
+- **2024–2025** · 숭실대 Vision & Machine Learning Lab 학부연구생. PointNet++ 기반 치아 3D 분할을 재현하고, CT 골밀도 데이터를 전처리했습니다.
+- **2021–2022** · Syncorbis 창업팀 Bio & SW Engineer. 생명과학 실험 자동화 장치를 설계했고, [특허](https://doi.org/10.8080/1020210123255)에 공동발명자로 등록됐습니다.
 
 <details>
-<summary><b>Background & other milestones</b></summary>
+<summary><b>Awards · Education · Activities</b></summary>
 <br>
 
 **AWARDS**
-- **2019** · 대한민국 인재상 — 부총리 겸 교육부장관상 · [기사](https://www.dmorning.kr/news/articleView.html?idxno=41872)
-- **2021–25** · 전라남도 으뜸인재 발탁 — 4학년 재능계발비 지원
+- **2026** · 청년 AI·BigData 아카데미 33기 프로젝트 최우수상(팀) · 우수상 · 협력상
+- **2025** · ICT 학점연계 프로젝트 인턴십 우수성과전 개인 장려상
+- **2024** · 숭실대 IT대학 소프트웨어 공모전 은상(팀, 밥보기) · SCON 4th Place(팀)
+- **2021–2025** · 전라남도 으뜸인재
+- **2019** · 대한민국 인재상 (부총리 겸 교육부장관상) · [기사](https://www.dmorning.kr/news/articleView.html?idxno=41872)
 
 **EDUCATION & CERTIFICATION**
-- **2020–26** · 숭실대학교 AI소프트웨어학부 · 인공지능 및 빅데이터 전공
-- **2022** · SQLD 취득
+- **2020–2026** · 숭실대학교 AI소프트웨어학부 인공지능·빅데이터 전공 졸업
 - **2026** · SSAFY 15기 합격 (서울)
+- **2025** · LG Aimers 7기 수료 (수요 예측 해커톤)
+- **2022** · SQLD
 
-**EARLIER EXPERIENCE & ACTIVITIES**
-- **2021–22** · Syncorbis Bio & SW Engineer — [생명과학 실험 자동화 장치 설계·특허](https://doi.org/10.8080/1020210123255)
-- **2025** · LG Aimers 7기 수요 예측 · GDG Soongsil 5기 Member · Curiator AI 도슨트
+**ACTIVITIES**
+- **2025–2026** · GDG on Campus Soongsil 5기 Member
+- **2025** · Curiator 캡스톤 프로젝트 (4학년 2학기), 관람객 맞춤형 AI 도슨트 프로토타입
 </details>
 
 <details>
