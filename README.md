@@ -1,115 +1,51 @@
-<h2> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚌𝚘𝚍𝚎𝚛𝚜/>! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></h2>
+# 기다슬 · Applied AI Engineer
 
-[![Gmail Badge](https://img.shields.io/badge/-rlektmf0328@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rlektmf0328@gmail.com)](mailto:rlektmf0328@gmail.com)
-[![Instagram Badge](https://img.shields.io/badge/-gidaseul-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/gidaseul)](https://instagram.com/gidaseul)
+**[POSTECH 인공지능연구원(PIAI)](https://piai.postech.ac.kr/english) 연구원**
 
-### 기다슬 · Applied AI Engineer
+컴퓨터비전과 LLM을 커머스, 안전, 의료영상 문제에 적용해 왔습니다. 모델을 검증하고 그 결과를 대시보드나 API로 구현합니다.
 
-**문제를 정의하고 → 모델·LLM 파이프라인으로 구현하고 → 실패 원인까지 분석해 → 실제로 쓰이는 형태로 배포**하는 개발자입니다.
-텐핑거스 AI 인턴, VML 학부연구생을 거치며 컴퓨터비전·RAG·LLM 시스템을 직접 만들고 검증했습니다.
+[이메일](mailto:rlektmf0328@gmail.com) · [포트폴리오](https://fragrant-cloudberry-f69.notion.site/1868017e41ad801fb28bff08bd094789) · [Velog](https://velog.io/@feelgi/posts) · [Tistory](https://feelgi.tistory.com/) · [Instagram](https://instagram.com/gidaseul)
 
-<div align="center">
-  <img src="https://github.com/gidaseul/gidaseul/assets/61573303/9415ba69-057a-4c22-ab50-7ac430cff445" alt="소개 영상" width="560" />
-</div>
+## 대표 프로젝트
 
----
+### 매의 눈 · AI 기반 신규 매장 발굴
 
-## 🚀 대표 프로젝트
+- 텐핑거스 인턴으로 매장 데이터를 수집하고, XGBoost로 제휴 가능성을 예측해 결과를 API로 제공하는 기능을 개발했습니다.
+- 메뉴와 리뷰를 바탕으로 LLM이 업종을 해석하도록 개선했습니다. ICT 학점연계 프로젝트 인턴십 우수성과전에서 개인 장려상을 받았습니다.
 
-### 🍎 [AppleCare+ 사과원 병해 진단](https://applecare-orchard.vercel.app/)
+[개발 사례 읽기](case-studies/eagle-eye.md)
 
-![CV](https://img.shields.io/badge/CV-e8722c?style=flat-square) ![VLM](https://img.shields.io/badge/VLM-e8722c?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-e8722c?style=flat-square) ![LIVE](https://img.shields.io/badge/●%20LIVE-1a9c4c?style=flat-square) ![팀프로젝트](https://img.shields.io/badge/POSCO%20AI%20아카데미%20·%205인%20팀-e8722c?style=flat-square)
+### 사과 잎 병해 진단 · 설명 가능한 AI 플랫폼
 
-**Problem** — 사과 잎 병해 진단은 분류 결과만으로는 사용자가 원인과 조치 방향을 이해하기 어렵다.
-**Solution** — 분류(EfficientNet-B0) → DINO 유사 이미지 검증 → Grad-CAM → VLM 시각 속성 판정 → RAG·LLM 리포트로 이어지는 5단계 구조를 팀에서 설계.
-**Result** — 발표 기준 분류 Complex F1 0.758, DINO 검증 통과 정답률 98.7%, VLM few-shot 적용 후 정확도 65%→75%(+10%p), 사용자 설문에서 고난도 병해 문항 정답률 최대 +55.8%p 개선.
-**Role** — 5인 팀 프로젝트로 데이터셋·모델 비교, XAI 검증, 발표 설계에 참여. 위 수치는 팀 발표 결과이며, 개인 단독 모델 성과가 아님.
+- 5인 팀에서 병해 진단 결과와 모델의 판단 근거를 보여주는 대시보드를 구현하고 배포했습니다.
+- 청년 AI·BigData 아카데미 팀 프로젝트 최우수상을 받았습니다. 팀은 34명을 대상으로 리포트 평가 설문을 진행했습니다.
 
-[**▶ 라이브 데모**](https://applecare-orchard.vercel.app/) · [GitHub](https://github.com/gidaseul/applecare-orchard) *(현재 비공개 저장소)*
+[라이브 데모](https://applecare-orchard.vercel.app/)
 
-<br>
+### 실시간 낙상 감지
 
-### 🚶 [실시간 낙상 감지](https://github.com/gidaseul/capstone_pose)
+- RGB 영상에서 YOLO로 사람을 찾고, MediaPipe로 자세를 추정한 뒤 LSTM으로 낙상 여부를 판정했습니다.
+- 처리 큐에 최신 프레임 하나만 남기도록 구성했고, 공개 저장소의 주요 코드를 작성했습니다.
 
-![CV](https://img.shields.io/badge/Computer%20Vision-2f6fed?style=flat-square) ![팀리드](https://img.shields.io/badge/캡스톤%20팀%20리드-2f6fed?style=flat-square)
-
-<a href="https://github.com/gidaseul/capstone_pose">
-  <img src="https://github.com/user-attachments/assets/e9b5b0ab-ff87-478e-a8c1-96cbd2d7cbf1" width="480" alt="실시간 낙상 감지 데모">
-</a>
-
-**Problem** — RGB 카메라만으로 낙상을 감지해야 하는 캡스톤 과제 (웨어러블 없음).
-**Solution** — YOLO로 사람 검출 → MediaPipe 관절 추출 → LSTM 시계열 분류의 2단계 구조. 자세 규칙 연속 5회 만족 시에만 LSTM 평가로 전달해 단발성 오탐을 필터링.
-**Result** — 오래된 프레임이 쌓이지 않게 프로세스 큐를 1개로 제한해 최신 프레임을 우선 처리. 직접 구축한 280개 영상 데이터셋으로 검증.
-
-[GitHub](https://github.com/gidaseul/capstone_pose)
-
-<br>
-
-### 🦅 매의 눈 — 잠재 매장 발굴
-
-![Applied AI](https://img.shields.io/badge/Applied%20AI-9c6b30?style=flat-square) ![인턴](https://img.shields.io/badge/텐핑거스%20AI%20인턴-9c6b30?style=flat-square) ![단독개발](https://img.shields.io/badge/단독%20개발-9c6b30?style=flat-square)
-
-**Problem** — 영업팀이 수작업으로 하던 신규 매장 발굴을 자동화해야 했다.
-**Solution** — 데이터 수집(Selenium 크롤러) → XGBoost 인기도 예측 → SBERT 유사도 → ML+LLM(Gemini) 카테고리 매칭 → QC Score → API로 이어지는 파이프라인. 기획부터 배포까지 개발 전 과정 단독 수행.
-**Result** — 제휴점 기준 내부 매칭 검수에서 카테고리 매칭률을 약 15%(ML 단독) → 약 80%(ML+LLM)로 개선. **ICT 학점연계 프로젝트 인턴십 우수성과 개인 부문 장려상** 수상.
-**Limitation** — 유사도만으로는 신규 후보를 못 찾는 한계를 확인 → 인기도 예측·제휴 가능성·LLM 카테고리 분류를 분리. 위 수치는 고정 테스트셋 accuracy가 아닌 내부 검수 결과.
-
-> 회사 코드·데이터는 비공개 → [Case Study](case-studies/eagle-eye.md)로 설계·역할만 정리
-
-<br>
-
-### 📊 [이미지 분류 & 표현학습 분석](https://github.com/gidaseul/machine-learning-project)
-
-![ML](https://img.shields.io/badge/Classical%20ML-7b5fd1?style=flat-square) ![Representation](https://img.shields.io/badge/Representation%20Learning-7b5fd1?style=flat-square)
-
-<a href="https://github.com/gidaseul/machine-learning-project">
-  <img src="https://raw.githubusercontent.com/gidaseul/machine-learning-project/main/assets/images/representation-latent-evidence.png" width="480" alt="latent space 분석">
-</a>
-
-**Problem** — MNIST·SportsBall로 고전적 이미지 분류와 표현학습(Autoencoder/Contrastive)의 실제 성능 차이를 검증.
-**Result** — 낮은 성능도 숨기지 않고 latent space·t-SNE로 원인까지 분석해 공개.
-
-[GitHub](https://github.com/gidaseul/machine-learning-project)
+[코드와 데모](https://github.com/gidaseul/capstone_pose)
 
 <details>
-<summary>다른 프로젝트 더 보기</summary>
-<br>
+<summary>다른 프로젝트 보기</summary>
 
-- **후판 Scale 불량 예측** *(POSCO 청년 AI·Big Data 아카데미, 5인 팀장)* — 완전분리 문제를 일으킨 HSB 변수를 공정 규칙으로 재해석하고 파생변수를 설계. 팀 최종 XGBoost 후보 Precision 100% · Recall 95.88% · ROC-AUC 0.9883 (불량 97건 중 93건 검출, 팀 결과).
-- **신용카드 사기 탐지** *(데이터사이언스 수업, 4인 팀장)* — 사기 비율 0.14%의 극단적 불균형 데이터에 샘플링 6종 × 모델 12종 = 144개 조합을 자동 비교하고, Accuracy 대신 미탐·오탐 비용함수로 최종 모델(ADASYN-BRF)을 선정.
-- **[Brain MRI Research](https://github.com/gidaseul/brain-mri-research)** — VML 학부연구생. 3D MRI 볼륨을 `ResNet3D-18`로 학습하고 CAM으로 주목 영역을 시각화 (팀 baseline과 개인 기여 분리 표기).
-- **[밥보기](https://github.com/gidaseul/babbogi)** — 섭취 기반 영양소 관리 앱. 5인 팀에서 **백엔드** 담당, `SavedFood` 검색·상세조회 기능을 커밋 단위로 구현 (2024 소프트웨어공모전 은상).
-- **[Docent AI](https://github.com/gidaseul/tts)** — 관람객 수준별 RAG·LLM·TTS 도슨트 프로토타입.
+- [후판 Scale 불량 예측](case-studies/posco-steel-quality.md) — 공정 변수에서 파생변수를 설계했습니다. 교육 데이터에서 팀의 최종 XGBoost 후보가 불량 97건 중 93건을 검출했습니다.
+- **신용카드 사기 탐지** — 샘플링과 모델의 144개 조합을 비교하고 미탐·오탐 비용으로 모델을 선정했습니다.
+- [이미지 분류와 표현학습](https://github.com/gidaseul/machine-learning-project) — MNIST와 SportsBall에서 분류 모델과 표현학습을 비교하고 잠재 공간을 분석했습니다.
+- [밥보기](case-studies/babbogi.md) — 영양소 관리 앱의 백엔드에서 음식 검색·상세 조회를 담당했습니다. 팀으로 숭실대 소프트웨어공모전 은상을 받았습니다.
+- [Docent AI](https://github.com/gidaseul/tts) — 관람객 수준에 맞춰 전시를 설명하는 RAG·LLM·TTS 프로토타입입니다.
 
 </details>
 
----
-
 ## Career Path
 
-> **Computer Vision · ML 기반을 쌓고, 현업 자동화 문제를 해결한 뒤, AI 제품과 연구로 확장하고 있습니다.**
-
-### 2024　FOUNDATION · Computer Vision & ML
-
-<a href="https://ssu.ac.kr/"><img src="https://ssu.ac.kr/wp-content/themes/SSUMainSiteV2/assets/images/renewal/logo_renewal.png" height="26" alt="숭실대학교"></a>
-
-**숭실대학교에서 Computer Vision·ML 기반을 만들었습니다.**<br>
-→ **VML Lab 학부연구생**으로 Medical AI·Computer Vision 연구를 시작하고, 실시간 낙상 감지 · 신용카드 사기 탐지 · 이미지 분류·표현학습 분석 프로젝트를 수행했습니다.<br>
-→ **밥보기** 5인 팀의 백엔드를 담당해 **2024 소프트웨어공모전 은상**, **숭실대 프로그래밍대회(SCON) 은상**을 수상했습니다.
-
-### 2025　FIELD IMPACT · Applied AI Automation
-
-**(주)텐핑거스 ICT 인턴**으로 신규 매장 발굴 업무를 단독 자동화했습니다.<br>
-→ Selenium · XGBoost · SBERT · **LLM**을 연결한 AI 파이프라인으로, 내부 제휴점 카테고리 매칭률을 **약 15% → 80%**로 개선했습니다.<br>
-→ **ICT 학점연계 프로젝트 인턴십 우수성과 개인 부문 장려상**을 받았습니다.
-
-### 2026　PRODUCT → RESEARCH · AI Product & Research
-
-<a href="https://www.poscohrd.com/"><img src="https://www.poscohrd.com/resources/images/common/site-logo.png" height="24" alt="POSCO 인재창조원"></a>&nbsp;&nbsp;<a href="https://piai.postech.ac.kr/"><img src="https://piai.postech.ac.kr/webroot/images/korean/layout/logo-v3.png" height="24" alt="PIAI"></a>&nbsp;&nbsp;<a href="https://www.postech.ac.kr/eng/"><img src="https://www.postech.ac.kr/_res/postech/eng/img/common/logo_header.png" height="24" alt="POSTECH"></a>
-
-**POSCO 청년 AI·BigData 아카데미 33기 팀장**으로 제조 품질 예측과 AppleCare+ 병해 진단 프로젝트를 수행했습니다.<br>
-→ 개인 **우수상**, **협력상**, B분반 3조 **프로젝트 최우수상** 수상.<br>
-→ 현재 **PIAI 인공지능 연구원 인턴**으로 AI 연구·개발 실무를 이어가고 있습니다.
+- **현재** · [POSTECH 인공지능연구원(PIAI)](https://piai.postech.ac.kr/english) 연구원
+- **2026** · 청년 AI·BigData 아카데미 33기 수료. 제조 품질 예측과 병해 진단 프로젝트에 참여했고, 개인 우수상과 협력상을 받았습니다.
+- **2025** · 텐핑거스 ICT 학점연계 프로젝트 인턴. 신규 제휴 매장 발굴 시스템 개발을 담당했습니다.
+- **2024–2025** · 숭실대 Vision & Machine Learning Lab 학부연구생. PointNet++ 치아 3D 분할을 재현하고 CT 골밀도 데이터를 전처리했습니다.
 
 <details>
 <summary><b>Background & other milestones</b></summary>
@@ -120,13 +56,22 @@
 - **2021–25** · 전라남도 으뜸인재 발탁 — 4학년 재능계발비 지원
 
 **EDUCATION & CERTIFICATION**
-- **2020–25** · 숭실대학교 소프트웨어학과 · 인공지능·빅데이터융합 전공
+- **2020–26** · 숭실대학교 AI소프트웨어학부 · 인공지능 및 빅데이터 전공
 - **2022** · SQLD 취득
 - **2026** · SSAFY 15기 합격 (서울)
 
 **EARLIER EXPERIENCE & ACTIVITIES**
 - **2021–22** · Syncorbis Bio & SW Engineer — [생명과학 실험 자동화 장치 설계·특허](https://doi.org/10.8080/1020210123255)
 - **2025** · LG Aimers 7기 수요 예측 · GDG Soongsil 5기 Member · Curiator AI 도슨트
+</details>
+
+<details>
+<summary>소개 영상 보기</summary>
+
+<div align="center">
+  <img src="https://github.com/gidaseul/gidaseul/assets/61573303/9415ba69-057a-4c22-ab50-7ac430cff445" alt="소개 영상" width="560" />
+</div>
+
 </details>
 
 ## 👯 Communities
@@ -190,5 +135,3 @@
 <img height="28" alt="c" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/c/c-original.svg">
 <img height="28" alt="mysql" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/mysql/mysql-original-wordmark.svg">
 </p>
-
-📫 [Velog](https://velog.io/@feelgi/posts) · [Tistory](https://feelgi.tistory.com/) · [Portfolio (Notion)](https://fragrant-cloudberry-f69.notion.site/1868017e41ad801fb28bff08bd094789) · [rlektmf0328@gmail.com](mailto:rlektmf0328@gmail.com)
