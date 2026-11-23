@@ -6,7 +6,7 @@
 
 # 기다슬 · Applied AI Engineer
 
-**[POSTECH 인공지능연구원(PIAI)](https://piai.postech.ac.kr/english) 연구원**
+**[POSTECH 인공지능연구원(PIAI)](https://piai.postech.ac.kr/)**
 
 일상과 산업 현장에서 겪는 불편을 줄이기 위해 AI를 연구하고 개발합니다. AI 전환(AX) 관점에서 실제로 어떤 문제를 풀어야 하는지 살피고, AI가 문제 해결에 도움이 되는지 검증해 현장에서 쓸 수 있는 서비스로 구현합니다.
 
