@@ -4,8 +4,7 @@
 
 컴퓨터비전과 LLM을 커머스, 안전, 의료영상 문제에 적용해 왔습니다. 모델을 검증하고 그 결과를 대시보드나 API로 구현합니다.
 
-[이메일](mailto:rlektmf0328@gmail.com) · [포트폴리오](https://fragrant-cloudberry-f69.notion.site/1868017e41ad801fb28bff08bd094789) · [Velog](https://velog.io/@feelgi/posts) · [Tistory](https://feelgi.tistory.com/) · [Instagram](https://instagram.com/gidaseul)
-
+[이메일](mailto:hye0328@postech.ac.kr)
 ## 대표 프로젝트
 
 ### 매의 눈 · AI 기반 신규 매장 발굴
