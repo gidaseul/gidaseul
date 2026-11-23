@@ -5,12 +5,21 @@
 컴퓨터비전과 LLM을 커머스, 안전, 의료영상 문제에 적용해 왔습니다. 모델을 검증하고 그 결과를 대시보드나 API로 구현합니다.
 
 [이메일](mailto:hye0328@postech.ac.kr)
+
 ## 대표 프로젝트
 
 ### 매의 눈 · AI 기반 신규 매장 발굴
 
 - 텐핑거스 인턴으로 매장 데이터를 수집하고, XGBoost로 제휴 가능성을 예측해 결과를 API로 제공하는 기능을 개발했습니다.
 - 메뉴와 리뷰를 바탕으로 LLM이 업종을 해석하도록 개선했습니다. ICT 학점연계 프로젝트 인턴십 우수성과전에서 개인 장려상을 받았습니다.
+
+```mermaid
+flowchart LR
+    A["매장 데이터 수집"] --> B["XGBoost 제휴 가능성 예측"]
+    A --> C["LLM 업종 분류"]
+    B --> D["결과 API"]
+    C --> D
+```
 
 [개발 사례 읽기](case-studies/eagle-eye.md)
 
@@ -19,12 +28,21 @@
 - 5인 팀에서 병해 진단 결과와 모델의 판단 근거를 보여주는 대시보드를 구현하고 배포했습니다.
 - 청년 AI·BigData 아카데미 팀 프로젝트 최우수상을 받았습니다. 팀은 34명을 대상으로 리포트 평가 설문을 진행했습니다.
 
+<p>
+  <img src="https://applecare-orchard.vercel.app/images/survey/88ddbc939596a5a4.jpg" height="180" alt="병해 진단에 사용한 사과 잎 원본 사진">
+  <img src="https://applecare-orchard.vercel.app/images/survey/cam/88ddbc939596a5a4.png" height="180" alt="같은 사과 잎에서 모델이 주목한 영역을 표시한 Grad-CAM 히트맵">
+</p>
+
+공개 데모의 사과 잎 원본과 같은 샘플의 Grad-CAM입니다. 히트맵은 모델이 분류할 때 주목한 영역을 보여줍니다.
+
 [라이브 데모](https://applecare-orchard.vercel.app/)
 
 ### 실시간 낙상 감지
 
 - RGB 영상에서 YOLO로 사람을 찾고, MediaPipe로 자세를 추정한 뒤 LSTM으로 낙상 여부를 판정했습니다.
 - 처리 큐에 최신 프레임 하나만 남기도록 구성했고, 공개 저장소의 주요 코드를 작성했습니다.
+
+![실시간 낙상 감지 모델에서 서버와 영상 저장, 문자 알림으로 이어지는 시스템 구성도](https://github.com/user-attachments/assets/e9b5b0ab-ff87-478e-a8c1-96cbd2d7cbf1)
 
 [코드와 데모](https://github.com/gidaseul/capstone_pose)
 
@@ -33,7 +51,7 @@
 
 - [후판 Scale 불량 예측](case-studies/posco-steel-quality.md) — 공정 변수에서 파생변수를 설계했습니다. 교육 데이터에서 팀의 최종 XGBoost 후보가 불량 97건 중 93건을 검출했습니다.
 - **신용카드 사기 탐지** — 샘플링과 모델의 144개 조합을 비교하고 미탐·오탐 비용으로 모델을 선정했습니다.
-- [이미지 분류와 표현학습](https://github.com/gidaseul/machine-learning-project) — MNIST와 SportsBall에서 분류 모델과 표현학습을 비교하고 잠재 공간을 분석했습니다.
+- [이미지 분류와 표현학습](https://github.com/gidaseul/machine-learning-project) — MNIST와 SportsBall에서 분류 모델과 표현학습을 비교하고 잠재 공간을 분석했습니다. [t-SNE 분석 그림](https://raw.githubusercontent.com/gidaseul/machine-learning-project/main/assets/images/representation-latent-evidence.png)
 - [밥보기](case-studies/babbogi.md) — 영양소 관리 앱의 백엔드에서 음식 검색·상세 조회를 담당했습니다. 팀으로 숭실대 소프트웨어공모전 은상을 받았습니다.
 - [Docent AI](https://github.com/gidaseul/tts) — 관람객 수준에 맞춰 전시를 설명하는 RAG·LLM·TTS 프로토타입입니다.
 
