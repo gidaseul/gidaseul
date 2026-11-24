@@ -32,16 +32,10 @@
 
 ### 사과 잎 병해 진단 · 설명 가능한 AI 플랫폼
 
-<img src="images/apple-orchard-diagnosis-cases.webp" width="100%" alt="공개 데모의 잎 원본과 Grad-CAM 세 쌍. 붉은별무늬병은 유사 사례 4건이 모두 일치했고, 검은별무늬병은 4건 중 1건만 일치했습니다. 복합 병해 사례에서는 모델이 검은별무늬병을 놓쳤습니다.">
-
-세 사례 모두 분류 점수가 100%로 표시됐습니다. 유사 사례와 일치하는 정도는 달랐고, 복합 병해 사례에서는 두 병해 중 하나만 예측했습니다.
-
-[붉은별무늬병 리포트](https://applecare-orchard.vercel.app/leaf?zone=E&id=e-04) · [검은별무늬병 리포트](https://applecare-orchard.vercel.app/leaf?zone=B&id=b-02) · [복합 병해 리포트](https://applecare-orchard.vercel.app/leaf?zone=C&id=c-05) · [대시보드 데모](https://applecare-orchard.vercel.app/)
+<img src="images/card-xai.png" width="100%" alt="병해 판단 근거 검증과 리포트 처리 흐름, 팀 설문 결과 및 대시보드 구현 범위">
 
 <details>
 <summary>구현 설명과 팀 설문 결과 보기</summary>
-
-<img src="images/card-xai.png" width="100%" alt="병해 판단 근거 검증과 리포트 처리 흐름, 팀 설문 결과 및 대시보드 구현 범위">
 
 - 5인 팀에서 병해 진단 결과와 모델의 판단 근거를 보여주는 대시보드를 구현하고 배포했습니다.
 - 청년 AI·BigData 아카데미 팀 프로젝트 최우수상을 받았습니다. 팀은 34명을 대상으로 리포트 평가 설문을 진행했습니다.
@@ -49,6 +43,19 @@
 **팀 설계와 개인 기여** · 팀 파이프라인은 복합 병해나 근거가 엇갈리는 경우에 VLM으로 추가 관찰합니다. 제가 구현·배포한 부분은 결과 대시보드입니다.
 
 </details>
+
+<details>
+<summary>실제 진단 사례 3건 비교 보기</summary>
+
+<img src="images/apple-orchard-diagnosis-cases.webp" width="100%" alt="공개 데모의 잎 원본과 Grad-CAM 세 쌍. 붉은별무늬병은 유사 사례 4건이 모두 일치했고, 검은별무늬병은 4건 중 1건만 일치했습니다. 복합 병해 사례에서는 모델이 검은별무늬병을 놓쳤습니다.">
+
+세 사례 모두 분류 점수가 100%로 표시됐습니다. 유사 사례와 일치하는 정도는 달랐고, 복합 병해 사례에서는 두 병해 중 하나만 예측했습니다.
+
+[붉은별무늬병 리포트](https://applecare-orchard.vercel.app/leaf?zone=E&id=e-04) · [검은별무늬병 리포트](https://applecare-orchard.vercel.app/leaf?zone=B&id=b-02) · [복합 병해 리포트](https://applecare-orchard.vercel.app/leaf?zone=C&id=c-05)
+
+</details>
+
+[대시보드 데모](https://applecare-orchard.vercel.app/)
 
 ### 실시간 낙상 감지
 
