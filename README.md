@@ -81,7 +81,7 @@
 - **신용카드 사기 탐지** — 샘플링과 모델의 144개 조합을 비교하고 미탐·오탐 비용으로 모델을 선정했습니다.
 - [이미지 분류와 표현학습](https://github.com/gidaseul/machine-learning-project) — MNIST와 SportsBall에서 분류 모델과 표현학습을 비교하고 잠재 공간을 분석했습니다. [t-SNE 분석 그림](https://raw.githubusercontent.com/gidaseul/machine-learning-project/main/assets/images/representation-latent-evidence.png)
 - [밥보기](case-studies/babbogi.md) — 영양소 관리 앱의 백엔드에서 음식 검색·상세 조회를 담당했습니다. 팀으로 숭실대 소프트웨어공모전 은상을 받았습니다.
-- [Docent AI](https://github.com/gidaseul/tts) — 관람객 수준에 맞춰 전시를 설명하는 RAG·LLM·TTS 프로토타입입니다.
+- [Curiator · 박물관 도슨트 AI](https://github.com/gidaseul/Curiator) — 작품 정보를 바탕으로 Gemini로 해설을 생성하고 Gemini TTS로 읽어 주는 API와 웹 화면입니다. 관람객 수준 3단계, 언어 5개, 전시 자료 검색(RAG)을 지원합니다.
 
 </details>
 
