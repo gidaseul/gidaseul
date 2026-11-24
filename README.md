@@ -45,13 +45,11 @@
 </details>
 
 <details>
-<summary>실제 진단 사례 3건 비교 보기</summary>
+<summary>Grad-CAM 보기</summary>
 
-<img src="images/apple-orchard-diagnosis-cases.webp" width="100%" alt="공개 데모의 잎 원본과 Grad-CAM 세 쌍. 붉은별무늬병은 유사 사례 4건이 모두 일치했고, 검은별무늬병은 4건 중 1건만 일치했습니다. 복합 병해 사례에서는 모델이 검은별무늬병을 놓쳤습니다.">
-
-세 사례 모두 분류 점수가 100%로 표시됐습니다. 유사 사례와 일치하는 정도는 달랐고, 복합 병해 사례에서는 두 병해 중 하나만 예측했습니다.
-
-[붉은별무늬병 리포트](https://applecare-orchard.vercel.app/leaf?zone=E&id=e-04) · [검은별무늬병 리포트](https://applecare-orchard.vercel.app/leaf?zone=B&id=b-02) · [복합 병해 리포트](https://applecare-orchard.vercel.app/leaf?zone=C&id=c-05)
+| 사과 잎 원본 | Grad-CAM 히트맵 |
+| :---: | :---: |
+| <img src="https://applecare-orchard.vercel.app/images/survey/f883d3b65ca8702e.jpg" height="180" alt="메인 카드에 사용된 검은별무늬병 잎 원본"> | <img src="https://applecare-orchard.vercel.app/images/survey/cam/f883d3b65ca8702e.png" height="180" alt="같은 잎에서 분류 모델이 강하게 반응한 위치를 표시한 Grad-CAM"> |
 
 </details>
 
