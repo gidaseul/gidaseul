@@ -79,23 +79,23 @@
   </thead>
   <tbody>
     <tr>
-      <td align="center"><a href="case-studies/posco-steel-quality.md"><img src="images/projects/steel-threshold.png" width="156" alt="후판 불량의 임계값별 미탐·오탐 비교"></a></td>
+      <td align="center"><a href="case-studies/posco-steel-quality.md"><img src="images/projects/thumbnails/steel.webp" width="156" height="88" alt="팀 발표 표지의 후판 압연 설비 일러스트"></a></td>
       <td><a href="case-studies/posco-steel-quality.md"><strong>후판 Scale 불량 예측</strong></a><br>압연 공정에서 불량을 더 찾을 때 추가 검사가 얼마나 늘어나는지 비교했습니다.</td>
     </tr>
     <tr>
-      <td align="center"><a href="case-studies/card-fraud-detection.md"><img src="images/projects/fraud-cost.png" width="156" alt="샘플링 방법별 사기 탐지 모의 비용"></a></td>
-      <td><a href="case-studies/card-fraud-detection.md"><strong>신용카드 사기 탐지</strong></a><br>놓친 사기 거래와 불필요한 조사에 드는 비용으로 탐지 모델을 비교했습니다.</td>
+      <td align="center"><a href="case-studies/card-fraud-detection.md"><img src="images/projects/thumbnails/fraud.webp" width="156" height="88" alt="카드 결제 흐름에서 검토할 거래를 강조한 생성 일러스트"></a></td>
+      <td><a href="case-studies/card-fraud-detection.md"><strong>신용카드 사기 탐지</strong></a><br>사기 비율이 약 0.14%인 교육 데이터에서 미탐과 오탐 비용으로 모델을 비교했습니다.</td>
     </tr>
     <tr>
-      <td align="center"><a href="case-studies/image-classification.md"><img src="https://raw.githubusercontent.com/gidaseul/machine-learning-project/60abed6f6827e83f1399edec7c21b424351dcb33/assets/images/classical-roi-evidence.png" width="156" alt="스포츠 공 사진의 전처리와 관심 영역 추출"></a></td>
+      <td align="center"><a href="case-studies/image-classification.md"><img src="images/projects/thumbnails/image-classification.webp" width="156" height="88" alt="농구공에 관심 영역 박스를 표시한 생성 일러스트"></a></td>
       <td><a href="case-studies/image-classification.md"><strong>이미지 분류와 표현학습</strong></a><br>스포츠 공 사진에서 관심 영역을 잘못 잡았을 때 분류가 어떻게 실패하는지 분석했습니다.</td>
     </tr>
     <tr>
-      <td align="center"><a href="case-studies/babbogi.md"><img src="https://github.com/user-attachments/assets/82721282-0146-4b85-b7c2-baeabb3dcb0e" height="94" alt="밥보기 Android 앱의 음식 검색 화면"></a></td>
+      <td align="center"><a href="case-studies/babbogi.md"><img src="images/projects/thumbnails/babbogi.webp" width="156" height="88" alt="밥보기 Android 앱에서 김치를 검색한 실제 화면"></a></td>
       <td><a href="case-studies/babbogi.md"><strong>밥보기</strong></a><br>검색 결과에서 고른 음식의 식품 코드로 중량에 맞는 영양정보를 조회합니다.</td>
     </tr>
     <tr>
-      <td align="center"><a href="case-studies/curiator.md"><img src="https://raw.githubusercontent.com/gidaseul/Curiator/b0a6f03ca08b627fecc50dbbe443024755787ed3/docs/screens/03-level.jpg" width="156" alt="Curiator에서 해설 언어와 관람객 수준을 고르는 화면"></a></td>
+      <td align="center"><a href="case-studies/curiator.md"><img src="images/projects/thumbnails/curiator.webp" width="156" height="88" alt="Curiator에서 해설 언어와 관람객 수준을 고르는 실제 화면"></a></td>
       <td><a href="case-studies/curiator.md"><strong>Curiator · 박물관 도슨트 AI</strong></a><br>관람객에 맞는 해설을 만들고, 화면에서 수정한 문장을 음성으로 들려줍니다.</td>
     </tr>
   </tbody>
