@@ -32,14 +32,16 @@
 
 ### 사과 잎 병해 진단 · 설명 가능한 AI 플랫폼
 
-<img src="images/card-xai.png" width="100%" alt="검은별무늬병 사례의 잎 원본과 Grad-CAM, 유사 사례 비교, 팀 설문 결과 및 결과 대시보드 구현 범위">
+<img src="images/apple-orchard-diagnosis-cases.webp" width="100%" alt="공개 데모의 잎 원본과 Grad-CAM 세 쌍. 붉은별무늬병은 유사 사례 4건이 모두 일치했고, 검은별무늬병은 4건 중 1건만 일치했습니다. 복합 병해 사례에서는 모델이 검은별무늬병을 놓쳤습니다.">
 
-**검은별무늬병 진단 예시** · 카드 중앙의 Grad-CAM은 모델이 잎의 어느 부분에 강하게 반응했는지 보여줍니다. 이 샘플의 분류 점수는 100%로 표시됐지만, 유사 사례 4건 중 1건만 같은 병해여서 종합 확신도는 ‘중상’이었습니다.
+세 사례 모두 분류 점수가 100%로 표시됐습니다. 유사 사례와 일치하는 정도는 달랐고, 복합 병해 사례에서는 두 병해 중 하나만 예측했습니다.
 
-[이 샘플의 진단 리포트 보기](https://applecare-orchard.vercel.app/leaf?zone=B&id=b-02) · [대시보드 데모](https://applecare-orchard.vercel.app/)
+[붉은별무늬병 리포트](https://applecare-orchard.vercel.app/leaf?zone=E&id=e-04) · [검은별무늬병 리포트](https://applecare-orchard.vercel.app/leaf?zone=B&id=b-02) · [복합 병해 리포트](https://applecare-orchard.vercel.app/leaf?zone=C&id=c-05) · [대시보드 데모](https://applecare-orchard.vercel.app/)
 
 <details>
-<summary>구현 설명 자세히 보기</summary>
+<summary>구현 설명과 팀 설문 결과 보기</summary>
+
+<img src="images/card-xai.png" width="100%" alt="병해 판단 근거 검증과 리포트 처리 흐름, 팀 설문 결과 및 대시보드 구현 범위">
 
 - 5인 팀에서 병해 진단 결과와 모델의 판단 근거를 보여주는 대시보드를 구현하고 배포했습니다.
 - 청년 AI·BigData 아카데미 팀 프로젝트 최우수상을 받았습니다. 팀은 34명을 대상으로 리포트 평가 설문을 진행했습니다.
