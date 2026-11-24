@@ -2,6 +2,18 @@
 
 숭실대 캡스톤 팀 프로젝트에서 맡았던 AI 파트를 정리한 저장소입니다. 작품 정보를 입력하면 어린이·일반·전문가 수준에 맞춰 다섯 언어 중 하나로 해설을 생성합니다. [프로젝트 저장소](https://github.com/gidaseul/Curiator)
 
+## 목차
+
+1. [문제와 담당 범위](#문제와-담당-범위)
+1. [해설을 먼저 고치고 음성을 만드는 흐름](#해설을-먼저-고치고-음성을-만드는-흐름)
+1. [파일 구조와 API](#파일-구조와-api)
+1. [검색 근거를 어디까지 믿을 수 있나](#검색-근거를-어디까지-믿을-수-있나)
+1. [검증 결과와 실행 경로](#검증-결과와-실행-경로)
+
+## 문제와 담당 범위
+
+같은 작품이라도 어린이에게는 쉬운 표현이, 전문가에게는 작품의 맥락과 용어가 필요합니다. 여기에 해설 언어까지 달라지면 작품 정보를 여러 번 편집하게 됩니다. 저는 작품·챕터 입력을 해설 생성과 음성 합성에 연결하는 AI API를 맡았습니다. 공개 저장소에는 이후 정리한 전시 자료 검색과 해설 편집 화면도 포함돼 있습니다.
+
 <img src="https://raw.githubusercontent.com/gidaseul/Curiator/b0a6f03ca08b627fecc50dbbe443024755787ed3/docs/screens/03-level.jpg" width="720" alt="Curiator에서 해설 언어, 관람객 수준, 관련 전시 자료 검색, 해설 유형을 고르는 화면">
 
 ## 해설을 먼저 고치고 음성을 만드는 흐름
@@ -9,6 +21,8 @@
 1. 작품이나 챕터 JSON을 입력하면 FastAPI가 공통 형식으로 변환합니다. 전시 자료 검색을 켜면 관련 작품과 챕터를 함께 찾아 Gemini에 전달합니다.
 2. `POST /generate-text`가 이야기 중심 해설과 역사·정석 해설을 반환합니다. 웹 화면에 검색한 참고 자료도 표시합니다.
 3. 관람객은 한 해설을 골라 문장을 편집합니다. `POST /generate-audio`는 편집한 문장만 받아 Gemini TTS로 읽어 줍니다. 글을 고친 뒤 음성을 만들 수 있도록 두 요청을 분리했습니다.
+
+## 파일 구조와 API
 
 ```text
 Curiator/
@@ -21,10 +35,22 @@ Curiator/
 └── tests/              외부 API 없이 검증하는 입력·검색·응답 테스트
 ```
 
+| 요청 | 주요 입력 | 확인할 응답 |
+| --- | --- | --- |
+| `POST /generate-text` | 작품 또는 챕터, 언어, 관람객 수준, 자료 검색 여부 | 해설 두 가지, 참고 자료 목록 |
+| `POST /generate-audio` | 편집한 해설, 언어, 목소리 | 생성한 음성 파일 URL |
+| `POST /ask` | 관람객 질문과 언어 | 답변, 참고 자료, 검색 근거 여부 |
+
 ## 검색 근거를 어디까지 믿을 수 있나
+
+전시 자료를 작품과 챕터 단위로 나눠 검색합니다. 임베딩 검색을 쓸 수 있으면 코사인 유사도 0.55 이상을 남기고, 임베딩을 쓸 수 없으면 문자 묶음 기반 TF-IDF 검색으로 전환해 별도 기준인 0.08을 적용합니다. `references`의 검색 방식과 점수는 어떻게 자료를 찾았는지 확인하는 단서입니다. 서로 다른 검색 방식의 점수를 같은 척도로 비교하기는 어렵습니다.
 
 `/ask`는 검색 기준을 넘는 참고 자료가 없으면 모델을 부르지 않고 안내 문구를 돌려줍니다. `grounded: true`는 참고 자료를 찾아 프롬프트에 전달했다는 뜻입니다. 답변의 개별 문장이 자료와 일치하는지 확인하는 검증 단계는 별도입니다.
 
-[화면에서 요청 보내는 코드](https://github.com/gidaseul/Curiator/blob/main/frontend/src/App.tsx) · [백엔드 요청 처리](https://github.com/gidaseul/Curiator/blob/main/main.py) · [실행 방법](https://github.com/gidaseul/Curiator#실행) · [검증 범위](https://github.com/gidaseul/Curiator#확인한-것과-확인하지-않은-것)
+## 검증 결과와 실행 경로
+
+통합 작업에서 외부 API 없이 실행하는 테스트 19개와 프런트엔드 빌드를 확인했습니다. 테스트는 입력 형식, 검색 결과 처리, 근거가 없을 때의 응답을 확인합니다. 실제 Gemini를 연결한 실행과 해설 사실성·음성 품질은 별도 검증 범위입니다.
+
+[화면에서 요청 보내는 코드](https://github.com/gidaseul/Curiator/blob/main/frontend/src/App.tsx) · [백엔드 요청 처리](https://github.com/gidaseul/Curiator/blob/main/main.py) · [검색 점수 구현](https://github.com/gidaseul/Curiator/blob/main/rag/store.py) · [실행 방법](https://github.com/gidaseul/Curiator#실행) · [검증 범위](https://github.com/gidaseul/Curiator#확인한-것과-확인하지-않은-것)
 
 [프로필의 더 살펴볼 프로젝트로 돌아가기](../README.md#더-살펴볼-프로젝트)

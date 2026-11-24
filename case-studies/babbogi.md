@@ -4,6 +4,18 @@
 
 팀은 Android 앱에서 식사를 기록하고 하루 영양소 섭취량을 확인할 수 있도록 구현했습니다. 저는 Spring Boot 백엔드에서 음식 이름 검색과 영양정보 상세 조회를 맡았습니다. [Android 클라이언트](https://github.com/gidaseul/babbogi) · [팀 백엔드](https://github.com/BabBogi/BabBogi-backend)
 
+## 목차
+
+1. [문제와 담당 범위](#문제와-담당-범위)
+1. [화면에서 데이터까지](#화면에서-데이터까지)
+1. [검색에서 영양정보까지](#검색에서-영양정보까지)
+1. [중량 환산 예시와 예외 처리](#중량-환산-예시와-예외-처리)
+1. [팀 기능과 확인 범위](#팀-기능과-확인-범위)
+
+## 문제와 담당 범위
+
+앱에서 ‘김치’를 검색하면 비슷한 음식명이 여러 개 나옵니다. 사용자가 그중 한 음식을 고르면, 선택한 항목의 영양정보를 일관되게 가져와야 합니다. 저는 검색 결과에 식품 코드를 포함하고, 상세 조회가 이 코드를 사용하도록 백엔드를 변경했습니다. Android 화면과 식사 기록 전체는 팀의 작업입니다.
+
 ## 화면에서 데이터까지
 
 <img src="https://github.com/user-attachments/assets/82721282-0146-4b85-b7c2-baeabb3dcb0e" width="240" alt="밥보기 앱의 음식 검색 화면">
@@ -30,10 +42,20 @@ Spring Boot
 
 검색에서 사용한 음식명을 상세 조회의 식별자로도 쓰면 이름이 같은 상품을 구별하기 어렵습니다. 상세 조회를 식품 코드로 바꾸고 검색 응답에 이 코드를 포함해, 화면에서 선택한 후보를 같은 식품 레코드에 연결했습니다. [담당 변경 커밋](https://github.com/BabBogi/BabBogi-backend/commit/d4b4a2505c84fde49c82c96ca94ac379f92696bf)
 
+## 중량 환산 예시와 예외 처리
+
+상세 조회는 해당 레코드에 등록된 중량을 사용합니다. 예를 들어 100g 기준 열량이 50kcal이고 저장된 중량이 150g이라면 `50 × 150 ÷ 100`으로 75.0kcal를 반환합니다. 탄수화물·단백질·지방 등에도 같은 방식을 적용합니다.
+
+| 데이터 상태 | 공개 구현의 처리 |
+| --- | --- |
+| 식품 중량이 비어 있음 | 100g으로 계산합니다. |
+| 영양 성분이 비어 있음 | 해당 성분을 0으로 돌려줍니다. |
+| 유효한 식품 코드가 조회되지 않음 | 서비스가 상세 데이터를 반환하지 않습니다. |
+
 ## 팀 기능과 확인 범위
 
 팀 서비스의 범위에는 식사 기록, 일일 영양 리포트, 알림이 포함됐습니다. 앱의 화면과 팀 기능 전체는 공동 산출물입니다. [식사 기록 API](https://github.com/BabBogi/BabBogi-backend/blob/4a0be2e32efc1a38347ec2b97ce72c97cbf0761e/src/main/java/BobBogi/BobBogispring/controller/ConsumptionController.java) · [일일 리포트 API](https://github.com/BabBogi/BabBogi-backend/blob/4a0be2e32efc1a38347ec2b97ce72c97cbf0761e/src/main/java/BobBogi/BobBogispring/controller/UserController.java)
 
-공개 코드의 환산 로직은 영양 성분 결측을 0으로 응답합니다. 이 값은 실제 측정값 0과 구별되지 않습니다. 수상은 팀 성과이며 실제 이용률과 영양 개선 효과를 측정한 자료는 없습니다. [클라이언트 README의 수상 기록](https://github.com/gidaseul/babbogi#readme)
+수상은 팀 성과이며 실제 이용률과 영양 개선 효과를 측정한 자료는 없습니다. 다음 검증에서는 이름이 같은 두 식품을 각각 선택해 코드와 상세 정보가 맞게 돌아오는지 확인하고, 결측 영양 성분을 사용자에게 어떻게 표시할지도 정해야 합니다. 현재 구현에서는 결측을 실제 측정값 0과 구분할 수 없습니다. [클라이언트 README의 수상 기록](https://github.com/gidaseul/babbogi#readme)
 
 [프로필의 더 살펴볼 프로젝트로 돌아가기](../README.md#더-살펴볼-프로젝트)
