@@ -67,11 +67,11 @@
 <details>
 <summary>다른 프로젝트 보기</summary>
 
-- [후판 Scale 불량 예측](case-studies/posco-steel-quality.md) — 공정 변수에서 파생변수를 설계했습니다. 교육 데이터에서 팀의 최종 XGBoost 후보가 불량 97건 중 93건을 검출했습니다.
-- **신용카드 사기 탐지** — 샘플링과 모델의 144개 조합을 비교하고 미탐·오탐 비용으로 모델을 선정했습니다.
-- [이미지 분류와 표현학습](https://github.com/gidaseul/machine-learning-project) — MNIST와 SportsBall에서 분류 모델과 표현학습을 비교하고 잠재 공간을 분석했습니다. [t-SNE 분석 그림](https://raw.githubusercontent.com/gidaseul/machine-learning-project/main/assets/images/representation-latent-evidence.png)
-- [밥보기](case-studies/babbogi.md) — 영양소 관리 앱의 백엔드에서 음식 검색·상세 조회를 담당했습니다. 팀으로 숭실대 소프트웨어공모전 은상을 받았습니다.
-- [Curiator · 박물관 도슨트 AI](https://github.com/gidaseul/Curiator) — 작품 정보를 바탕으로 Gemini로 해설을 생성하고 Gemini TTS로 읽어 주는 API와 웹 화면입니다. 관람객 수준 3단계, 언어 5개, 전시 자료 검색(RAG)을 지원합니다.
+- [후판 Scale 불량 예측](case-studies/posco-steel-quality.md) — 공정 변수 전처리와 분류 임계값 비교를 맡았습니다. 교육용 평가에서 팀의 XGBoost 후보가 불량 97건 중 93건을 검출했습니다.
+- [신용카드 사기 탐지](case-studies/card-fraud-detection.md) — 4인 팀을 이끌며 특성 선택·샘플링·모델의 144개 후보 조건을 설계하고 실험을 자동화했습니다. 팀은 사기 미탐과 정상 거래 오탐의 비용을 기준으로 후보를 비교했습니다.
+- [이미지 분류와 표현학습](https://github.com/gidaseul/machine-learning-project) — MNIST와 SportsBall에서 ROI·HOG 기반 분류와 CNN 표현을 비교했습니다. SportsBall의 교차검증과 테스트 성능 차이를 살피고, t-SNE로 잠재 공간에서 클래스가 겹치는 사례를 분석했습니다. [t-SNE 그림과 해설](https://github.com/gidaseul/machine-learning-project/blob/main/ML_2/README.md#evidence)
+- [밥보기](case-studies/babbogi.md) — Spring Boot에서 음식명 검색, 식품 코드 기반 상세 조회, 중량별 영양정보 환산을 구현했습니다. 팀으로 숭실대 소프트웨어공모전 은상을 받았습니다.
+- [Curiator · 박물관 도슨트 AI](https://github.com/gidaseul/Curiator) — 작품 정보로 관람객 수준 3단계, 언어 5개의 해설을 만드는 FastAPI와 웹 화면입니다. 전시 자료 검색(RAG)을 해설·답변 생성에 연결하고, 수정한 해설은 Gemini TTS로 읽어 줍니다.
 
 </details>
 
