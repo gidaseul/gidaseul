@@ -53,7 +53,7 @@
 
 </details>
 
-[대시보드 데모](https://applecare-orchard.vercel.app/)
+[대시보드 구조와 진단 사례](case-studies/apple-orchard-xai.md) · [대시보드 데모](https://applecare-orchard.vercel.app/)
 
 ### 실시간 낙상 감지
 
@@ -69,56 +69,37 @@
 
 </details>
 
-[카메라와 자세 규칙](https://github.com/gidaseul/capstone_pose/blob/49a0ad8620eb1c05e7e772ec47ac1bfca14539e9/process/CameraProcess.py#L31-L126) · [프로세스 간 큐](https://github.com/gidaseul/capstone_pose/blob/49a0ad8620eb1c05e7e772ec47ac1bfca14539e9/PipedProcess.py#L12-L45) · [LSTM과 영상 저장](https://github.com/gidaseul/capstone_pose/blob/49a0ad8620eb1c05e7e772ec47ac1bfca14539e9/process/LSTMProcess.py#L19-L69)
+[처리 구조와 코드 읽기](case-studies/fall-detection.md) · [프로젝트 저장소](https://github.com/gidaseul/capstone_pose)
 
-<details>
-<summary>다른 프로젝트 보기</summary>
+## 더 살펴볼 프로젝트
 
-#### 후판 Scale 불량 예측
-
-공정 변수 전처리와 임계값 비교를 맡았습니다. 로지스틱 회귀에서 검사 기준을 낮추면 불량을 더 찾을 수 있지만, 양품도 더 많이 검사해야 합니다.
-
-| 임계값 | 놓친 불량 | 추가 검사 대상으로 잡힌 양품 |
-| :---: | ---: | ---: |
-| 0.50 | 10건 | 34건 |
-| 0.40 | 7건 | 41건 |
-
-개인 로지스틱 회귀의 교육용 평가 결과입니다. 별도 평가에서 팀의 XGBoost 후보는 불량 97건 중 93건을 잡았습니다. [전처리와 평가 조건 보기](case-studies/posco-steel-quality.md)
-
-#### 신용카드 사기 탐지
-
-교육용 거래에서 사기 비율은 약 0.14%였습니다. 모든 거래를 정상으로 분류해도 정확도가 약 99.86%인 데이터라, 팀은 **놓친 사기 금액과 정상 거래를 잘못 조사하는 비용**으로 후보를 비교했습니다.
-
-팀장으로 특성 선택·샘플링·모델의 144개 후보 조건을 설계하고 리포트 생성을 자동화했습니다. 비용을 비교한 여섯 조건 중 전체 특성에 ADASYN을 적용한 클래스 가중 랜덤 포레스트가 가장 낮았습니다. [비용 산식과 평가 한계 보기](case-studies/card-fraud-detection.md)
-
-#### 이미지 분류와 표현학습
-
-SportsBall에서 교차검증 정확도는 약 65%, 별도 테스트는 약 37%였습니다. 공이 잘려 나간 오분류 사례를 보고 ROI 추출 과정을 살폈습니다. CNN 특징을 t-SNE로 비교했을 때도 SportsBall은 MNIST보다 클래스 색이 더 많이 겹쳤습니다.
-
-[ROI 추출 결과와 팀 보고서](https://github.com/gidaseul/machine-learning-project#방법-1-단순-이미지-분류) · [t-SNE 그림과 해설](https://github.com/gidaseul/machine-learning-project/blob/main/ML_2/README.md#evidence)
-
-#### 밥보기
-
-검색 결과에 이름이 같은 음식이 있어도 사용자가 고른 항목의 영양정보를 불러와야 했습니다. Spring Boot에서 검색 결과에 식품 코드를 포함하고, 그 코드로 상세 조회하도록 구현했습니다.
-
-```text
-GET /search?name=...      → 음식 후보와 식품 코드
-GET /food?foodcode=...    → 해당 식품의 중량 기준 영양정보
-```
-
-[담당 변경 커밋](https://github.com/BabBogi/BabBogi-backend/commit/d4b4a2505c84fde49c82c96ca94ac379f92696bf) · [중량 환산과 팀 은상 기록](case-studies/babbogi.md)
-
-#### Curiator · 박물관 도슨트 AI
-
-작품 정보를 넣고 관람객 수준과 언어를 선택하면 해설 초안을 생성합니다. 화면에서 문장을 고쳐 들을 수 있도록 FastAPI에서 해설 생성과 Gemini 음성 합성을 별도 요청으로 나눴습니다.
-
-<a href="https://github.com/gidaseul/Curiator/blob/main/docs/screens/03-level.jpg">
-  <img src="https://raw.githubusercontent.com/gidaseul/Curiator/b0a6f03ca08b627fecc50dbbe443024755787ed3/docs/screens/03-level.jpg" width="540" alt="Curiator 화면에서 해설 언어, 관람객 수준, 전시 자료 검색 여부를 선택하는 단계">
-</a>
-
-[처리 흐름과 실행 방법](https://github.com/gidaseul/Curiator#readme) · [검색 및 API 테스트](https://github.com/gidaseul/Curiator/tree/main/tests)
-
-</details>
+<table>
+  <thead>
+    <tr><th scope="col">미리보기</th><th scope="col">프로젝트</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><a href="case-studies/posco-steel-quality.md"><img src="images/projects/steel-threshold.png" width="156" alt="후판 불량의 임계값별 미탐·오탐 비교"></a></td>
+      <td><a href="case-studies/posco-steel-quality.md"><strong>후판 Scale 불량 예측</strong></a><br>압연 공정에서 불량을 더 찾을 때 추가 검사가 얼마나 늘어나는지 비교했습니다.</td>
+    </tr>
+    <tr>
+      <td align="center"><a href="case-studies/card-fraud-detection.md"><img src="images/projects/fraud-cost.png" width="156" alt="샘플링 방법별 사기 탐지 모의 비용"></a></td>
+      <td><a href="case-studies/card-fraud-detection.md"><strong>신용카드 사기 탐지</strong></a><br>놓친 사기 거래와 불필요한 조사에 드는 비용으로 탐지 모델을 비교했습니다.</td>
+    </tr>
+    <tr>
+      <td align="center"><a href="case-studies/image-classification.md"><img src="https://raw.githubusercontent.com/gidaseul/machine-learning-project/60abed6f6827e83f1399edec7c21b424351dcb33/assets/images/classical-roi-evidence.png" width="156" alt="스포츠 공 사진의 전처리와 관심 영역 추출"></a></td>
+      <td><a href="case-studies/image-classification.md"><strong>이미지 분류와 표현학습</strong></a><br>스포츠 공 사진에서 관심 영역을 잘못 잡았을 때 분류가 어떻게 실패하는지 분석했습니다.</td>
+    </tr>
+    <tr>
+      <td align="center"><a href="case-studies/babbogi.md"><img src="https://github.com/user-attachments/assets/82721282-0146-4b85-b7c2-baeabb3dcb0e" height="94" alt="밥보기 Android 앱의 음식 검색 화면"></a></td>
+      <td><a href="case-studies/babbogi.md"><strong>밥보기</strong></a><br>검색 결과에서 고른 음식의 식품 코드로 중량에 맞는 영양정보를 조회합니다.</td>
+    </tr>
+    <tr>
+      <td align="center"><a href="case-studies/curiator.md"><img src="https://raw.githubusercontent.com/gidaseul/Curiator/b0a6f03ca08b627fecc50dbbe443024755787ed3/docs/screens/03-level.jpg" width="156" alt="Curiator에서 해설 언어와 관람객 수준을 고르는 화면"></a></td>
+      <td><a href="case-studies/curiator.md"><strong>Curiator · 박물관 도슨트 AI</strong></a><br>관람객에 맞는 해설을 만들고, 화면에서 수정한 문장을 음성으로 들려줍니다.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🛠 Languages & Tools
 

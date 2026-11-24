@@ -4,6 +4,22 @@
 
 팀은 Android 앱에서 식사를 기록하고 하루 영양소 섭취량을 확인할 수 있도록 구현했습니다. 저는 Spring Boot 백엔드에서 음식 이름 검색과 영양정보 상세 조회를 맡았습니다. [Android 클라이언트](https://github.com/gidaseul/babbogi) · [팀 백엔드](https://github.com/BabBogi/BabBogi-backend)
 
+## 화면에서 데이터까지
+
+<img src="https://github.com/user-attachments/assets/82721282-0146-4b85-b7c2-baeabb3dcb0e" width="240" alt="밥보기 앱의 음식 검색 화면">
+
+```text
+Android
+├── ui/FoodSearchScreen.kt         음식명 입력과 후보 선택
+└── network/ServerApiClient.kt    검색과 영양정보 조회 요청
+Spring Boot
+├── controller/SavedFoodController.java  GET /search, GET /food
+├── service/SavedFoodService.java        후보 매핑과 중량별 영양정보 환산
+└── repository/SavedFoodRepository.java  이름 검색, 식품 코드 상세 조회
+```
+
+[검색 화면 코드](https://github.com/gidaseul/babbogi/blob/main/app/src/main/java/com/example/babbogi/ui/FoodSearchScreen.kt) · [클라이언트 요청 정의](https://github.com/gidaseul/babbogi/blob/main/app/src/main/java/com/example/babbogi/network/ServerApiClient.kt)
+
 ## 검색에서 영양정보까지
 
 | 단계 | 요청과 처리 |
@@ -19,3 +35,5 @@
 팀 서비스의 범위에는 식사 기록, 일일 영양 리포트, 알림이 포함됐습니다. 앱의 화면과 팀 기능 전체는 공동 산출물입니다. [식사 기록 API](https://github.com/BabBogi/BabBogi-backend/blob/4a0be2e32efc1a38347ec2b97ce72c97cbf0761e/src/main/java/BobBogi/BobBogispring/controller/ConsumptionController.java) · [일일 리포트 API](https://github.com/BabBogi/BabBogi-backend/blob/4a0be2e32efc1a38347ec2b97ce72c97cbf0761e/src/main/java/BobBogi/BobBogispring/controller/UserController.java)
 
 공개 코드의 환산 로직은 영양 성분 결측을 0으로 응답합니다. 이 값은 실제 측정값 0과 구별되지 않습니다. 수상은 팀 성과이며 실제 이용률과 영양 개선 효과를 측정한 자료는 없습니다. [클라이언트 README의 수상 기록](https://github.com/gidaseul/babbogi#readme)
+
+[프로필의 더 살펴볼 프로젝트로 돌아가기](../README.md#더-살펴볼-프로젝트)
