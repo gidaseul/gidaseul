@@ -32,7 +32,11 @@
 
 ### 사과 잎 병해 진단 · 설명 가능한 AI 플랫폼
 
-<img src="images/card-xai.png" width="100%" alt="사과 잎 병해 진단 예시와 팀 설문 결과, 결과 대시보드 구현 범위">
+<img src="images/card-xai.png" width="100%" alt="검은별무늬병 사례의 잎 원본과 Grad-CAM, 유사 사례 비교, 팀 설문 결과 및 결과 대시보드 구현 범위">
+
+**검은별무늬병 진단 예시** · 카드 중앙의 Grad-CAM은 모델이 잎의 어느 부분에 강하게 반응했는지 보여줍니다. 이 샘플의 분류 점수는 100%로 표시됐지만, 유사 사례 4건 중 1건만 같은 병해여서 종합 확신도는 ‘중상’이었습니다.
+
+[이 샘플의 진단 리포트 보기](https://applecare-orchard.vercel.app/leaf?zone=B&id=b-02) · [대시보드 데모](https://applecare-orchard.vercel.app/)
 
 <details>
 <summary>구현 설명 자세히 보기</summary>
@@ -43,20 +47,6 @@
 **팀 설계와 개인 기여** · 팀 파이프라인은 복합 병해나 근거가 엇갈리는 경우에 VLM으로 추가 관찰합니다. 제가 구현·배포한 부분은 결과 대시보드입니다.
 
 </details>
-
-<details>
-<summary>공개 데모의 Grad-CAM 예시 보기</summary>
-
-<p>
-  <img src="https://applecare-orchard.vercel.app/images/survey/88ddbc939596a5a4.jpg" height="180" alt="병해 진단에 사용한 사과 잎 원본 사진">
-  <img src="https://applecare-orchard.vercel.app/images/survey/cam/88ddbc939596a5a4.png" height="180" alt="같은 사과 잎에서 모델이 주목한 영역을 표시한 Grad-CAM 히트맵">
-</p>
-
-왼쪽은 사과 잎 원본입니다. 오른쪽은 같은 샘플에서 분류 모델이 주목한 영역입니다.
-
-</details>
-
-[라이브 데모](https://applecare-orchard.vercel.app/)
 
 ### 실시간 낙상 감지
 
