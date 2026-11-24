@@ -74,11 +74,49 @@
 <details>
 <summary>다른 프로젝트 보기</summary>
 
-- [후판 Scale 불량 예측](case-studies/posco-steel-quality.md) — 공정 변수 전처리와 분류 임계값 비교를 맡았습니다. 교육용 평가에서 팀의 XGBoost 후보가 불량 97건 중 93건을 검출했습니다.
-- [신용카드 사기 탐지](case-studies/card-fraud-detection.md) — 4인 팀을 이끌며 특성 선택·샘플링·모델의 144개 후보 조건을 설계하고 실험을 자동화했습니다. 팀은 사기 미탐과 정상 거래 오탐의 비용을 기준으로 후보를 비교했습니다.
-- [이미지 분류와 표현학습](https://github.com/gidaseul/machine-learning-project) — MNIST와 SportsBall에서 ROI·HOG 기반 분류와 CNN 표현을 비교했습니다. SportsBall의 교차검증과 테스트 성능 차이를 살피고, t-SNE로 잠재 공간에서 클래스가 겹치는 사례를 분석했습니다. [t-SNE 그림과 해설](https://github.com/gidaseul/machine-learning-project/blob/main/ML_2/README.md#evidence)
-- [밥보기](case-studies/babbogi.md) — Spring Boot에서 음식명 검색, 식품 코드 기반 상세 조회, 중량별 영양정보 환산을 구현했습니다. 팀으로 숭실대 소프트웨어공모전 은상을 받았습니다.
-- [Curiator · 박물관 도슨트 AI](https://github.com/gidaseul/Curiator) — 작품 정보로 관람객 수준 3단계, 언어 5개의 해설을 만드는 FastAPI와 웹 화면입니다. 전시 자료 검색(RAG)을 해설·답변 생성에 연결하고, 수정한 해설은 Gemini TTS로 읽어 줍니다.
+#### 후판 Scale 불량 예측
+
+공정 변수 전처리와 임계값 비교를 맡았습니다. 로지스틱 회귀에서 검사 기준을 낮추면 불량을 더 찾을 수 있지만, 양품도 더 많이 검사해야 합니다.
+
+| 임계값 | 놓친 불량 | 추가 검사 대상으로 잡힌 양품 |
+| :---: | ---: | ---: |
+| 0.50 | 10건 | 34건 |
+| 0.40 | 7건 | 41건 |
+
+개인 로지스틱 회귀의 교육용 평가 결과입니다. 별도 평가에서 팀의 XGBoost 후보는 불량 97건 중 93건을 잡았습니다. [전처리와 평가 조건 보기](case-studies/posco-steel-quality.md)
+
+#### 신용카드 사기 탐지
+
+교육용 거래에서 사기 비율은 약 0.14%였습니다. 모든 거래를 정상으로 분류해도 정확도가 약 99.86%인 데이터라, 팀은 **놓친 사기 금액과 정상 거래를 잘못 조사하는 비용**으로 후보를 비교했습니다.
+
+팀장으로 특성 선택·샘플링·모델의 144개 후보 조건을 설계하고 리포트 생성을 자동화했습니다. 비용을 비교한 여섯 조건 중 전체 특성에 ADASYN을 적용한 클래스 가중 랜덤 포레스트가 가장 낮았습니다. [비용 산식과 평가 한계 보기](case-studies/card-fraud-detection.md)
+
+#### 이미지 분류와 표현학습
+
+SportsBall에서 교차검증 정확도는 약 65%, 별도 테스트는 약 37%였습니다. 공이 잘려 나간 오분류 사례를 보고 ROI 추출 과정을 살폈습니다. CNN 특징을 t-SNE로 비교했을 때도 SportsBall은 MNIST보다 클래스 색이 더 많이 겹쳤습니다.
+
+[ROI 추출 결과와 팀 보고서](https://github.com/gidaseul/machine-learning-project#방법-1-단순-이미지-분류) · [t-SNE 그림과 해설](https://github.com/gidaseul/machine-learning-project/blob/main/ML_2/README.md#evidence)
+
+#### 밥보기
+
+검색 결과에 이름이 같은 음식이 있어도 사용자가 고른 항목의 영양정보를 불러와야 했습니다. Spring Boot에서 검색 결과에 식품 코드를 포함하고, 그 코드로 상세 조회하도록 구현했습니다.
+
+```text
+GET /search?name=...      → 음식 후보와 식품 코드
+GET /food?foodcode=...    → 해당 식품의 중량 기준 영양정보
+```
+
+[담당 변경 커밋](https://github.com/BabBogi/BabBogi-backend/commit/d4b4a2505c84fde49c82c96ca94ac379f92696bf) · [중량 환산과 팀 은상 기록](case-studies/babbogi.md)
+
+#### Curiator · 박물관 도슨트 AI
+
+작품 정보를 넣고 관람객 수준과 언어를 선택하면 해설 초안을 생성합니다. 화면에서 문장을 고쳐 들을 수 있도록 FastAPI에서 해설 생성과 Gemini 음성 합성을 별도 요청으로 나눴습니다.
+
+<a href="https://github.com/gidaseul/Curiator/blob/main/docs/screens/03-level.jpg">
+  <img src="https://raw.githubusercontent.com/gidaseul/Curiator/b0a6f03ca08b627fecc50dbbe443024755787ed3/docs/screens/03-level.jpg" width="540" alt="Curiator 화면에서 해설 언어, 관람객 수준, 전시 자료 검색 여부를 선택하는 단계">
+</a>
+
+[처리 흐름과 실행 방법](https://github.com/gidaseul/Curiator#readme) · [검색 및 API 테스트](https://github.com/gidaseul/Curiator/tree/main/tests)
 
 </details>
 
