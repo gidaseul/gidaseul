@@ -12,6 +12,8 @@
 
 [이메일](mailto:hye0328@postech.ac.kr)
 
+[매의 눈 개발 사례](case-studies/eagle-eye.md) · [Curiator 공개 코드](https://github.com/gidaseul/Curiator) · [낙상 감지 공개 코드](https://github.com/gidaseul/capstone_pose)
+
 ## 대표 프로젝트
 
 ### 매의 눈 · AI 기반 신규 매장 발굴
@@ -34,13 +36,17 @@
 
 <img src="images/card-xai.png" width="100%" alt="병해 판단 근거 검증과 리포트 처리 흐름, 팀 설문 결과 및 대시보드 구현 범위">
 
+**개인 기여** · 분류 결과, 유사 사례, Grad-CAM과 진단 리포트를 보여주는 대시보드를 구현하고 배포했습니다.
+
+[저장된 진단 사례 보기](https://applecare-orchard.vercel.app/leaf?zone=B&id=b-02) · [대시보드 구현 상세](case-studies/apple-orchard-xai.md)
+
+새 사진을 분석하려면 별도 추론 서버에 연결해야 합니다.
+
 <details>
-<summary>구현 설명과 팀 설문 결과 보기</summary>
+<summary>팀 모델 설계와 설문 결과 보기</summary>
 
-- 5인 팀에서 병해 진단 결과와 모델의 판단 근거를 보여주는 대시보드를 구현하고 배포했습니다.
-- 청년 AI·BigData 아카데미 팀 프로젝트 최우수상을 받았습니다. 팀은 34명을 대상으로 리포트 평가 설문을 진행했습니다.
-
-**팀 설계와 개인 기여** · 팀 파이프라인은 복합 병해나 근거가 엇갈리는 경우에 VLM으로 추가 관찰합니다. 제가 구현·배포한 부분은 결과 대시보드입니다.
+- 5인 팀은 복합 병해가 의심되거나 근거가 엇갈릴 때 VLM으로 추가 관찰하도록 진단 파이프라인을 설계했습니다.
+- 팀은 34명을 대상으로 리포트 평가 설문을 진행했고, 청년 AI·BigData 아카데미 팀 프로젝트 최우수상을 받았습니다.
 
 </details>
 
@@ -52,8 +58,6 @@
 | <img src="https://applecare-orchard.vercel.app/images/survey/f883d3b65ca8702e.jpg" height="180" alt="메인 카드에 사용된 검은별무늬병 잎 원본"> | <img src="https://applecare-orchard.vercel.app/images/survey/cam/f883d3b65ca8702e.png" height="180" alt="같은 잎에서 분류 모델이 강하게 반응한 위치를 표시한 Grad-CAM"> |
 
 </details>
-
-[대시보드 구조와 진단 사례](case-studies/apple-orchard-xai.md) · [대시보드 데모](https://applecare-orchard.vercel.app/)
 
 ### 실시간 낙상 감지
 
